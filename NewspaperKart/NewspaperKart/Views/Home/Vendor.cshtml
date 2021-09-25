@@ -1,0 +1,141 @@
+﻿
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Vendor</title>
+    <style>
+        /*.tiles {
+                margin-top: 100px;
+            }*/
+
+        .tiles .link-tiles {
+            margin-bottom: 20px;
+            background: #F3f3f3;
+            height: 137px;
+        }
+
+            .tiles .link-tiles a {
+                display: inline-flex;
+                width: 100%;
+                height: 100%;
+                align-items: center;
+                position: relative;
+                color: #111;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 20px;
+                padding-left: 1.2rem;
+                text-transform: uppercase;
+            }
+
+
+        .link-tiles a:after {
+            font-family: FontAwesome;
+            content: "\f0c1";
+            top: 42%;
+            right: 30px;
+            position: absolute;
+            font-size: 1.5rem;
+        }
+
+        .link-tiles:hover {
+            background: #333;
+            transition: all, 0.4s, ease;
+        }
+
+            .link-tiles:hover a {
+                /*    color: #f1f1f1;
+
+            */
+                color: lightgreen;
+            }
+
+            .link-tiles:hover a {
+                /*        color: #f1f1f1;
+            */ color: lightgreen;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="justify-content-xl-center" align="center">
+
+        <section class="tiles">
+            <div class="container">
+                @*<div class="row">*@
+                <h2>Vendor Dashboard</h2><br /><br /><br /><br />
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <div class="link-tiles">
+
+                            @Html.ActionLink("Delivery Partner", "ViewDelivery", "Delivery")
+
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4">
+                        <div class="link-tiles">
+                            @Html.ActionLink("Subscription List", "CustomerList", "Customer")
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 col-sm-4">
+                        <div class="link-tiles">
+                            @Html.ActionLink("Add Delivery Partner", "AddDeliveryPartner", "AddDeliveryPartner")
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4">
+                        <div class="link-tiles">
+                            @Html.ActionLink("Contact", "ViewContact", "Contact")
+
+                        </div>
+                    </div>
+                    @*<div class="col-md-3 col-sm-4">
+                            <div class="link-tiles">
+                                @Html.ActionLink("The Economic Times", "Index", "EconomicTimes")
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="link-tiles">
+                                @Html.ActionLink("Deccan Chronicle", "Index", "DeccanChronicle")
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="link-tiles">
+                                @Html.ActionLink("Business Standard", "Index", "BusinessStandard")
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="link-tiles">
+                                @Html.ActionLink("The Indian Express", "Index", "IndianExpress")
+
+                            </div>
+                        </div>*@
+
+
+
+                </div>
+                @*</div>*@
+                <!--.row-->
+            </div>
+            <!--.container-->
+        </section>
+
+    </div>
+</body>
+</html>
+
+
+
+
+

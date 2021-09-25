@@ -1,0 +1,211 @@
+﻿
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+    @*<title>@ViewData["Title"] - NewspaperkartMVCClient</title>*@
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />*@
+    <style>
+        :root {
+            --surface-color: #fff;
+            --curve: 40;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: white;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 4rem 1vw;
+            margin-left: 10px;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .card {
+            position: relative;
+            display: block;
+            height: 100%;
+            border-radius: calc(var(--curve) * 1px);
+            overflow: hidden;
+            text-decoration: none;
+        }
+
+        .card__image {
+            width: 100%;
+            height: auto;
+        }
+
+        .card__overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+            border-radius: calc(var(--curve) * 1px);
+            background-color: var(--surface-color);
+            transform: translateY(100%);
+            transition: .2s ease-in-out;
+        }
+
+        .card:hover .card__overlay {
+            transform: translateY(0);
+        }
+
+        .card__header {
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 2em;
+            padding: 2em;
+            border-radius: calc(var(--curve) * 1px) 0 0 0;
+            background-color: #cdbdff;
+            transform: translateY(-100%);
+            transition: .2s ease-in-out;
+        }
+
+        .card__arc {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            bottom: 100%;
+            right: 0;
+            z-index: 1;
+        }
+
+            .card__arc path {
+                fill: var(--surface-color);
+                d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+            }
+
+        .card:hover .card__header {
+            transform: translateY(0);
+        }
+
+        .card__thumb {
+            flex-shrink: 0;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .card__title {
+            font-size: 1em;
+            margin: 0 0 .3em;
+            color: black;
+        }
+
+        .card__tagline {
+            display: block;
+            margin: 1em 0;
+            font-family: "MockFlowFont";
+            font-size: .8em;
+            color: #D7BDCA;
+        }
+
+        .card__status {
+            font-size: .8em;
+            color: #180454;
+        }
+
+        /*.card__description {
+            padding: 0 2em 2em;
+            margin: 0;
+            color: #D7BDCA;
+            font-family: "MockFlowFont";
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+        }*/
+        .neon {
+            color: #423c3c;
+            text-shadow: 0 0 5px #423c3c, 0 0 10px #423c3c, 0 0 20px #423c3c, 0 0 30px #423c3c, 0 0 40px #423c3c;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <br />
+        <p style="font-family: 'Comic Sans MS'; color: black; text-align: center; font-size: 45px;" class="neon">WELCOME TO NEWSPAPER KART</p>
+        <ul class="cards">
+            <li>
+                <a asp-action="AddCustomer" asp-controller="Customer" class="card">
+                    <img src="https://img.freepik.com/free-vector/follow-me-social-business-theme-design_24877-50426.jpg?size=338&ext=jpg" class="card__image" alt="" />
+                    <div class="card__overlay">
+                        <div class="card__header">
+                            @*<svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>*@
+                            <img class="card__thumb" src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="" />
+                            <div class="card__header-text">
+                                <h3 class="card__title">User</h3>
+                                <span class="card__status">Login as a user</span>
+                            </div>
+                        </div>
+                        @*<p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>*@
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a asp-controller="Admin" asp-action="AddAdmin" class="card">
+                    <img src="https://img.freepik.com/free-vector/follow-me-social-business-theme-design_24877-50426.jpg?size=338&ext=jpg" class="card__image" alt="" />
+                    <div class="card__overlay">
+                        <div class="card__header">
+                            @*<svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>*@
+                            <img class="card__thumb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLzi8P9Z8RNkDxO7TSfCTcMN3PkJKyG9rMJw&usqp=CAU" alt="" />
+                            <div class="card__header-text">
+                                <h3 class="card__title">Admin</h3>
+                                <span class="card__status">Login as an admin</span>
+                            </div>
+                        </div>
+                        @*<p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>*@
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a asp-action="AddVendor" asp-controller="Vendor" class="card">
+                    <img src="https://img.freepik.com/free-vector/follow-me-social-business-theme-design_24877-50426.jpg?size=338&ext=jpg" class="card__image" alt="" />
+                    <div class="card__overlay">
+                        <div class="card__header">
+                            @*<svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>*@
+                            <img class="card__thumb" src="https://i.dlpng.com/static/png/6419297_preview.png" alt="" />
+                            <div class="card__header-text">
+                                <h3 class="card__title">Vendor</h3>
+                                <span class="card__status">Login as a vendor</span>
+                            </div>
+                        </div>
+                        @*<p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>*@
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+
+
+@*<img src="https://www.newspaperkart.com/template/img/logo1.png" />
+<h1 align="center">Welcome to NewspaperKart</h1>
+
+<br />
+<br />
+
+<div align="center">
+    <div>
+        <a asp-action="Login" asp-controller="Login" class="btn btn-outline-success">Sign in</a>
+    </div>
+
+    <br />
+
+    <div>
+        <a asp-action="Register" asp-controller="Login" class="btn btn-outline-success">Sign up</a>
+    </div>
+</div>*@

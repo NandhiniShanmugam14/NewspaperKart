@@ -1,0 +1,90 @@
+﻿@model IEnumerable<NewspaperKart.Models.Newspapertbl>
+
+@{
+    ViewData["Title"] = "ViewNewspaper";
+}
+
+<style>
+    .subscription {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+        .subscription td, .subscription th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        .subscription tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .subscription tr:hover {
+            background-color: #ddd;
+        }
+
+        .subscription th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #01054d;
+            color: white;
+        }
+</style>
+
+<body>
+    <br />
+    <h2 class="text-center" style="font-family: 'Comic Sans MS'">My Subscriptions</h2><br />
+    <table class="subscription">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Language)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Language)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        <a asp-action="UpdateNewspaper" asp-route-id="@item.Id">Edit</a> |
+                        @*<a asp-action="Details" asp-route-id="@item.Id">Details</a>*@
+                        <a asp-action="DeleteNewspaper" asp-route-id="@item.Id" class="btn btn-outline-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+
+
+
+@*<div>
+        <a asp-action="AddCustomer"  class="btn btn-outline-dark">Back</a>
+    </div>*@
