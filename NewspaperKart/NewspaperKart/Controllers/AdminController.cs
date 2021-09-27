@@ -13,10 +13,13 @@ namespace NewspaperKart.Controllers
 {
     public class AdminController : Controller
     {
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(AdminController));
+
         string Baseurl = "https://localhost:44394/";
         [HttpGet]
         public async Task<ActionResult> ViewAdmin()
         {
+            _log4net.Info("Admin Controller - View method called");
             List<Admintbl> adminInfo = new List<Admintbl>();
 
             using (var client = new HttpClient())
@@ -48,18 +51,21 @@ namespace NewspaperKart.Controllers
         [HttpPost]
         public async Task<ActionResult> AddAdmin(Admintbl c)
         {
+            _log4net.Info("Admin Controller - Add method called");
+            _log4net.Info("User " + c.Name + " Registered");
+
             Admintbl Adobj = new Admintbl();
             using (var httpClient = new HttpClient())
             {
                 StringContent content = new StringContent(JsonConvert.SerializeObject(c), Encoding.UTF8, "application/json");
 
-                using (var response = await httpClient.PostAsync("https://localhost:44394/api/Admin", content))
+                using (var response = await httpClient.PostAsync("https://localhost:44394/api/Admin/", content))
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
                     Adobj = JsonConvert.DeserializeObject<Admintbl>(apiResponse);
                 }
             }
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("AdminLogin", "Register");
         }
 
         //[HttpGet]

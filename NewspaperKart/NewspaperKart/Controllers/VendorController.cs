@@ -12,7 +12,9 @@ namespace NewspaperKart.Controllers
 {
     public class VendorController : Controller
     {
-        string Baseurl = "https://localhost:44325/";
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(VendorController));
+
+        //string Baseurl = "https://localhost:44325/";
 
         [HttpGet]
         public ActionResult AddVendor()
@@ -23,6 +25,8 @@ namespace NewspaperKart.Controllers
         [HttpPost]
         public async Task<ActionResult> AddVendor(Vendortbl v)
         {
+            _log4net.Info("Vendor Controller - Add method called");
+            _log4net.Info("User " +v.UserName + " Registered");
             Vendortbl Venobj = new Vendortbl();
             using (var httpClient = new HttpClient())
             {
@@ -34,7 +38,7 @@ namespace NewspaperKart.Controllers
                     Venobj = JsonConvert.DeserializeObject<Vendortbl>(apiResponse);
                 }
             }
-            return RedirectToAction("Vendor", "Home");
+            return RedirectToAction("VendorLogin", "Register");
         }
     }
 }

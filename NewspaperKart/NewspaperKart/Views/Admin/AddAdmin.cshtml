@@ -131,7 +131,7 @@
     <div class="formclass">
         <div class="wrapper">
             <div class="title"><span>Admin Registration</span></div>
-            <form asp-action="AddAdmin" style="border: 2px solid #006953; border-radius: 0 0 10px 10px; ">
+            <form asp-action="AddAdmin" asp-controller="Admin" style="border: 2px solid #006953; border-radius: 0 0 10px 10px; ">
                 <div class="row">
                     <i class="fas fa-user"></i>
                     <input asp-for="Name" type="text" placeholder="Name" required>
@@ -148,9 +148,9 @@
                     <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
                 <div class="row button">
-                    <input type="submit" value="Register">
+                    <input type="submit" value="Register" />
                 </div>
-                @*<div class="signup-link">Already have an account? <a asp-action="Login">Signin now</a></div>*@
+                <div class="signup-link">Already have an account? <a asp-action="AdminLogin" asp-controller="Register">Signin now</a></div>
             </form>
         </div>
     </div>

@@ -14,6 +14,8 @@ namespace NewspaperKart.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(HomeController));
+
         public static List<Newspaper> newspapers = new List<Newspaper>();
 
         public HomeController(ILogger<HomeController> logger)
@@ -23,16 +25,19 @@ namespace NewspaperKart.Controllers
 
         public IActionResult Index()
         {
+            _log4net.Info("Home Controller - Index method called");
             return View();
         }
 
         public IActionResult Admin()
         {
+            _log4net.Info("Home Controller - Admin method called");
             return View();
         }
 
         public IActionResult Vendor()
         {
+            _log4net.Info("Home Controller - Vendor method called");
             return View();
         }
 

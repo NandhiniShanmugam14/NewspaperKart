@@ -395,3 +395,6 @@ C:\Users\Administrator\Documents\Technical Training\Projects\Newspapercartsite\N
 C:\Users\Administrator\Documents\Technical Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Newspaper\ViewNewspaper.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Admin\AddAdmin.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Vendor\AddVendor.cshtml.g.cs
+C:\Users\Administrator\Documents\Technical Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\bin\Debug\net5.0\log4net.config
+C:\Users\Administrator\Documents\Technical Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\bin\Debug\net5.0\log4net.dll
+C:\Users\Administrator\Documents\Technical Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\bin\Debug\net5.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll

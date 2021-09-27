@@ -16,10 +16,14 @@ namespace NewspaperKart.Controllers
 {
     public class CustomerController : Controller
     {
+
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(CustomerController));
+
         string Baseurl = "https://localhost:44322/";
         [HttpGet]
         public async Task<ActionResult> Index()
         {
+            _log4net.Info("Customer Controller - View method called");
             List<Customertbl> CustInfo = new List<Customertbl>();
 
             using (var client = new HttpClient())
@@ -51,6 +55,8 @@ namespace NewspaperKart.Controllers
         [HttpPost]
         public async Task<ActionResult> AddCustomer(Customertbl c)
         {
+            _log4net.Info("Customer Controller - Add method called");
+            _log4net.Info("User " +c.Name + " Registered");
             Customertbl Custobj = new Customertbl();
             using (var httpClient = new HttpClient())
             {
@@ -62,12 +68,14 @@ namespace NewspaperKart.Controllers
                     Custobj = JsonConvert.DeserializeObject<Customertbl>(apiResponse);
                 }
             }
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("UserLogin", "Register");
         }
 
         [HttpGet]
         public async Task<ActionResult> UpdateCustomer(int id)
         {
+            //_log4net.Info("Customer Controller - Update method called");
+
             Customertbl cust = new Customertbl();
             using (var httpClient = new HttpClient())
             {

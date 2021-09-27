@@ -50,7 +50,7 @@ namespace NewspaperKart.Controllers
                 }
                 else
                 {
-                    return View();
+                    return RedirectToAction("Index", "Home");
                 }
             }
         }

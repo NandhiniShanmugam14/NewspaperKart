@@ -13,11 +13,14 @@ namespace NewspaperKart.Controllers
 {
     public class SubscriptionController : Controller
     {
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(FeedbackController));
+
         string Baseurl = "https://localhost:44337/";
 
         [HttpGet]
         public async Task<ActionResult> Index()
         {
+            _log4net.Info("Subscription Controller - Index method called");
             List<Subscriptiontbl> SubsInfo = new List<Subscriptiontbl>();
 
             using (var client = new HttpClient())
@@ -49,6 +52,9 @@ namespace NewspaperKart.Controllers
         [HttpPost]
         public async Task<ActionResult> AddSubscription(Subscriptiontbl s)
         {
+            _log4net.Info("Subscription Controller - Add method called");
+            _log4net.Info("User " + s.Name + " Subscribed newspaper with id " +s.TitleId);
+
             Subscriptiontbl Subsobj = new Subscriptiontbl();
             using (var httpClient = new HttpClient())
             {
@@ -81,6 +87,8 @@ namespace NewspaperKart.Controllers
         [HttpPost]
         public async Task<ActionResult> UpdateSubscription(Subscriptiontbl s)
         {
+            _log4net.Info("Subscription Controller - Update method called");
+            _log4net.Info("Subscription with id " +s.SubId + " is updated");
             Subscriptiontbl receivedemp = new Subscriptiontbl();
 
             using (var httpClient = new HttpClient())
@@ -119,6 +127,8 @@ namespace NewspaperKart.Controllers
         [HttpPost]
         public async Task<ActionResult> DeleteSubscription(Subscriptiontbl s)
         {
+            _log4net.Info("Subscription Controller - Delete method called");
+            _log4net.Info("Subscription with id " +s.SubId + " is deleted");
             int subid = Convert.ToInt32(TempData["subid"]);
             using (var httpClient = new HttpClient())
             {

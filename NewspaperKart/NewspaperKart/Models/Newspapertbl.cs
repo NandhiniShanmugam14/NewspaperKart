@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -15,8 +16,14 @@ namespace NewspaperKart.Models
         }
 
         public int Id { get; set; }
+
+        [Required(ErrorMessage = "Please add a title")]
         public string Title { get; set; }
+
+        [Required(ErrorMessage = "Please add the language")]
         public string Language { get; set; }
+
+        [Required(ErrorMessage = "Please add the price")]
         public string Price { get; set; }
 
         //public virtual ICollection<AddDeliverytbl> AddDeliverytbls { get; set; }

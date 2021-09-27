@@ -14,11 +14,14 @@ namespace NewspaperKart.Controllers
 {
     public class NewspaperController : Controller
     {
+
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(NewspaperController));
         string Baseurl = "https://localhost:44387/";
 
         [HttpGet]
         public async Task<ActionResult> ViewNewspaper()
         {
+            _log4net.Info("Newspaper Controller - View method called");
             List<Newspapertbl> NewsInfo = new List<Newspapertbl>();
 
             using (var client = new HttpClient())
@@ -50,6 +53,8 @@ namespace NewspaperKart.Controllers
         [HttpPost]
         public async Task<ActionResult> AddNewspaper(Newspapertbl n)
         {
+            _log4net.Info("Newspaper Controller - Add method called");
+            _log4net.Info("User " + n.Id + " Registered");
             Newspapertbl Newsobj = new Newspapertbl();
             using (var httpClient = new HttpClient())
             {
@@ -67,6 +72,7 @@ namespace NewspaperKart.Controllers
         [HttpGet]
         public async Task<ActionResult> UpdateNewspaper(int id)
         {
+            _log4net.Info("Newspaper Controller - Update method called");
             Newspapertbl news = new Newspapertbl();
             using (var httpClient = new HttpClient())
             {
@@ -82,6 +88,7 @@ namespace NewspaperKart.Controllers
         [HttpPost]
         public async Task<ActionResult> UpdateNewspaper(Newspapertbl n)
         {
+            _log4net.Info("User with id" + n.Id + "is updated" );
             Newspapertbl receivedemp = new Newspapertbl();
 
             using (var httpClient = new HttpClient())
@@ -120,6 +127,8 @@ namespace NewspaperKart.Controllers
         [HttpPost]
         public async Task<ActionResult> DeleteNewspaper(Newspapertbl n)
         {
+            _log4net.Info("Newspaper Controller - Delete method called");
+            _log4net.Info("User with id" + n.Id + " is deleted");
             int id = Convert.ToInt32(TempData["id"]);
             using (var httpClient = new HttpClient())
             {

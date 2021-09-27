@@ -13,11 +13,14 @@ namespace NewspaperKart.Controllers
 {
     public class FeedbackController : Controller
     {
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(FeedbackController));
+
         string Baseurl = "https://localhost:44353/";
 
         [HttpGet]
         public async Task<ActionResult> ViewFeedback()
         {
+            _log4net.Info("Feedback Controller - View method called");
             List<Feedbacktbl> FeedbckInfo = new List<Feedbacktbl>();
 
             using (var client = new HttpClient())
@@ -49,6 +52,9 @@ namespace NewspaperKart.Controllers
         [HttpPost]
         public async Task<ActionResult> AddFeedback(Feedbacktbl f)
         {
+            _log4net.Info("Feedback Controller - Add method called");
+            _log4net.Info("User " +f.Name + " Added feedback");
+
             Feedbacktbl Feedbckobj = new Feedbacktbl();
             using (var httpClient = new HttpClient())
             {
@@ -66,6 +72,9 @@ namespace NewspaperKart.Controllers
         [HttpGet]
         public async Task<ActionResult> UpdateFeedback(int id)
         {
+            _log4net.Info("Feedback Controller - Update method called");
+            
+
             Feedbacktbl fdbck = new Feedbacktbl();
             using (var httpClient = new HttpClient())
             {
@@ -81,6 +90,8 @@ namespace NewspaperKart.Controllers
         [HttpPost]
         public async Task<ActionResult> UpdateFeedback(Feedbacktbl f)
         {
+            _log4net.Info("User with id " + f.FeedId + " is updated");
+
             Feedbacktbl receivedemp = new Feedbacktbl();
 
             using (var httpClient = new HttpClient())
@@ -102,6 +113,7 @@ namespace NewspaperKart.Controllers
         [HttpGet]
         public async Task<ActionResult> DeleteFeedback(int id)
         {
+            _log4net.Info("Feedback Controller - Delete method called");
             TempData["feedid"] = id;
             Feedbacktbl f = new Feedbacktbl();
             using (var httpClient = new HttpClient())
@@ -119,6 +131,7 @@ namespace NewspaperKart.Controllers
         [HttpPost]
         public async Task<ActionResult> DeleteFeedback(Feedbacktbl s)
         {
+            _log4net.Info("User with id " + s.FeedId + " is deleted");
             int feedid = Convert.ToInt32(TempData["feedid"]);
             using (var httpClient = new HttpClient())
             {
