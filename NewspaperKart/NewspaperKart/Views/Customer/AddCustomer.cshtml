@@ -16,7 +16,7 @@
         .formclass {
             max-width: 440px;
             padding: 0 20px;
-            margin: 90px auto;
+            margin: 60px auto;
         }
 
         .wrapper {
@@ -131,28 +131,28 @@
     <div class="formclass">
         <div class="wrapper">
             <div class="title"><span>Registration Form</span></div>
-            <form asp-action="AddCustomer" style="border: 2px solid #006953; border-radius: 0 0 10px 10px; ">
-                <div class="row">
+            <form asp-action="AddCustomer" style="border: 2px solid #006953; border-radius: 0 0 10px 10px; " autocomplete="on">
+                <div class="row" style="margin-bottom: 0.7cm;">
                     <i class="fas fa-user"></i>
-                    <input asp-for="Name" type="text" placeholder="Name" required>
+                    <input asp-for="Name" type="text" placeholder="Name" required autocomplete="off">
                     <span asp-validation-for="Name" class="text-danger"></span>
                 </div>
-                <div class="row">
+                <div class="row" style="margin-bottom: 0.7cm;">
                     <i class="fas fa-lock"></i>
                     <input asp-for="Address" type="text" placeholder="Address" required>
                     <span asp-validation-for="Address" class="text-danger"></span>
                 </div>
-                <div class="row">
+                <div class="row" style="margin-bottom: 0.7cm;">
                     <i class="fas fa-lock"></i>
                     <input asp-for="Phoneno" type="text" placeholder="Phoneno" required>
                     <span asp-validation-for="Phoneno" class="text-danger"></span>
                 </div>
-                <div class="row">
+                <div class="row" style="margin-bottom: 0.7cm;">
                     <i class="fas fa-lock"></i>
                     <input asp-for="UserName" type="text" placeholder="UserName" required>
                     <span asp-validation-for="UserName" class="text-danger"></span>
                 </div>
-                <div class="row">
+                <div class="row" style="margin-bottom: 0.7cm;">
                     <i class="fas fa-lock"></i>
                     <input asp-for="Password" type="password" placeholder="Password" required>
                     <span asp-validation-for="Password" class="text-danger"></span>
@@ -160,7 +160,7 @@
                 <div class="row button">
                     <input type="submit" value="Register">
                 </div>
-                <div class="signup-link">Already have an account? <a asp-action="UserLogin" asp-controller="Register">Signin now</a></div>
+                <div class="signup-link">Already have an account? <a asp-action="CustomerLogin" asp-controller="Customer">Signin now</a></div>
             </form>
         </div>
     </div>

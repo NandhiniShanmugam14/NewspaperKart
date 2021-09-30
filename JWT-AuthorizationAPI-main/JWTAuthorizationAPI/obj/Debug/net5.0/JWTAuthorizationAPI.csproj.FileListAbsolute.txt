@@ -1,0 +1,188 @@
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\appsettings.json
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\JWTAuthorizationAPI.exe
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\JWTAuthorizationAPI.deps.json
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\JWTAuthorizationAPI.runtimeconfig.json
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\JWTAuthorizationAPI.runtimeconfig.dev.json
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\JWTAuthorizationAPI.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\ref\JWTAuthorizationAPI.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\JWTAuthorizationAPI.pdb
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Humanizer.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.csproj.AssemblyReference.cache
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.AssemblyInfoInputs.cache
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.AssemblyInfo.cs
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.csproj.CoreCompileInputs.cache
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\staticwebassets\JWTAuthorizationAPI.StaticWebAssets.Manifest.cache
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\staticwebassets\JWTAuthorizationAPI.StaticWebAssets.xml
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\scopedcss\bundle\JWTAuthorizationAPI.styles.css
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.RazorTargetAssemblyInfo.cache
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.csproj.CopyComplete
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\ref\JWTAuthorizationAPI.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.pdb
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.genruntimeconfig.cache
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\log4net.config
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\log4net.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.PowerBI.Api.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.Rest.ClientRuntime.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.Core.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.Data.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.DataService.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.Diagnostics.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.EntitlementService.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.Exception.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.GlobalTaxService.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.OAuth2PlatformClient.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.QueryFilter.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.ReportService.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.Retry.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.Security.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.Utility.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.WebHooksService.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\IppDotNetSdkForQuickBooksApiV3.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Enrichers.Environment.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Enrichers.Thread.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Sinks.File.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Sinks.Trace.dll
+D:\Training - kanini\API-ASP.NET\JWTAuthorizationAPI\JWTAuthorizationAPI\bin\Debug\net5.0\SerilogTraceListener.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\log4net.config
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\appsettings.json
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\JWTAuthorizationAPI.exe
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\JWTAuthorizationAPI.deps.json
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\JWTAuthorizationAPI.runtimeconfig.json
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\JWTAuthorizationAPI.runtimeconfig.dev.json
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\JWTAuthorizationAPI.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\ref\JWTAuthorizationAPI.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\JWTAuthorizationAPI.pdb
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.Core.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.Data.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.DataService.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.Diagnostics.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.EntitlementService.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.Exception.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.GlobalTaxService.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.OAuth2PlatformClient.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.QueryFilter.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.ReportService.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.Retry.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.Security.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.Utility.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Intuit.Ipp.WebHooksService.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\IppDotNetSdkForQuickBooksApiV3.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\log4net.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.PowerBI.Api.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Enrichers.Environment.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Enrichers.Thread.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Extensions.Logging.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Sinks.Console.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Sinks.File.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Serilog.Sinks.Trace.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\SerilogTraceListener.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.AssemblyInfo.cs
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\staticwebassets\JWTAuthorizationAPI.StaticWebAssets.Manifest.cache
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\staticwebassets\JWTAuthorizationAPI.StaticWebAssets.xml
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\scopedcss\bundle\JWTAuthorizationAPI.styles.css
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.csproj.CopyComplete
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\ref\JWTAuthorizationAPI.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.pdb
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\JWT-AuthorizationAPI-main\JWTAuthorizationAPI\obj\Debug\net5.0\JWTAuthorizationAPI.genruntimeconfig.cache

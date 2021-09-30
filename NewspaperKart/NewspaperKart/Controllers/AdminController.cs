@@ -5,7 +5,12 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using JWT;
+using JWT.Algorithms;
+using JWT.Serializers;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using NewspaperKart.Models;
 using Newtonsoft.Json;
 
@@ -13,9 +18,73 @@ namespace NewspaperKart.Controllers
 {
     public class AdminController : Controller
     {
+
+        string Token = "";
+
+        IConfiguration _config;
+
+        private IJsonSerializer _serializer = new JsonNetSerializer();
+        private IDateTimeProvider _provider = new UtcDateTimeProvider();
+        private IBase64UrlEncoder _urlEncoder = new JwtBase64UrlEncoder();
+        private IJwtAlgorithm _algorithm = new HMACSHA256Algorithm();
+
+        public AdminController(IConfiguration config)
+        {
+            _config = config;
+        }
+
+
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(AdminController));
 
         string Baseurl = "https://localhost:44394/";
+
+
+        [HttpGet]
+        public IActionResult AdminLogin()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult AdminLogin(Admintbl a)
+        {
+            using (var client = new HttpClient())
+            {
+                StringContent c_content = new StringContent(JsonConvert.SerializeObject(a), Encoding.UTF8, "application/json");
+                var response = client.PostAsync("https://localhost:44318/api/Authorization/Admin", c_content).Result;
+                var response1 = client.PostAsync("https://localhost:44394/api/Admin", c_content).Result;
+                if (response.IsSuccessStatusCode)
+                {
+                    if (response1.IsSuccessStatusCode)
+                    {
+                        Token = response.Content.ReadAsStringAsync().Result;
+                        HttpContext.Response.Cookies.Append("Token", Token);
+
+                        string c1 = response1.Content.ReadAsStringAsync().Result;
+                        Admintbl AdminDetails = JsonConvert.DeserializeObject<Admintbl>(c1);
+
+                        HttpContext.Session.SetString("Username", AdminDetails.UserName);
+                        HttpContext.Session.SetInt32("UserId", AdminDetails.AdminId);
+
+                        IJwtValidator _validator = new JwtValidator(_serializer, _provider);
+                        IJwtDecoder decoder = new JwtDecoder(_serializer, _validator, _urlEncoder, _algorithm);
+                        var tokenExp = decoder.DecodeToObject<JwtTokenExp>(Token);
+                        DateTimeOffset dateTimeOffset = DateTimeOffset.FromUnixTimeSeconds(tokenExp.exp);
+                        DateTime timeExp = dateTimeOffset.LocalDateTime;
+
+                        HttpContext.Response.Cookies.Append("Expiry", timeExp.ToString());
+                        return RedirectToAction("Admin", "Home");
+                    }
+                    else
+                    {
+                        return RedirectToAction("Admin", "Home");
+                    }
+                }
+                return View();
+            }
+        }
+
+
+
         [HttpGet]
         public async Task<ActionResult> ViewAdmin()
         {

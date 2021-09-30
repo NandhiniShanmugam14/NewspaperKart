@@ -3,3 +3,197 @@ INFO  11:36:36 Hosting environment: Development
 INFO  11:36:36 Content root path: C:\Users\Administrator\Documents\Technical Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
 INFO  11:36:50 Admin Controller - Add method called
 INFO  11:36:50 User ScoobRegistered
+INFO  12:58:55 Application started. Press Ctrl+C to shut down.
+INFO  12:58:55 Hosting environment: Development
+INFO  12:58:55 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:58:55 Demo Controller - Index method called(Home Page)
+INFO  01:01:19 Application started. Press Ctrl+C to shut down.
+INFO  01:01:19 Hosting environment: Development
+INFO  01:01:19 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:01:19 Demo Controller - Index method called(Home Page)
+ERROR 01:01:22 The view 'CustomerLogin' was not found. Searched locations: /Views/Customer/CustomerLogin.cshtml, /Views/Shared/CustomerLogin.cshtml
+ERROR 01:01:23 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'CustomerLogin' was not found. The following locations were searched:
+/Views/Customer/CustomerLogin.cshtml
+/Views/Shared/CustomerLogin.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:03:31 Application started. Press Ctrl+C to shut down.
+INFO  01:03:31 Hosting environment: Development
+INFO  01:03:31 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:03:31 Demo Controller - Index method called(Home Page)
+INFO  01:06:12 Application started. Press Ctrl+C to shut down.
+INFO  01:06:12 Hosting environment: Development
+INFO  01:06:12 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:06:12 Demo Controller - Index method called(Home Page)
+ERROR 01:06:23 The view 'Index' was not found. Searched locations: /Views/Customer/Index.cshtml, /Views/Shared/Index.cshtml
+ERROR 01:06:23 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Customer/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:07:24 Application started. Press Ctrl+C to shut down.
+INFO  01:07:24 Hosting environment: Development
+INFO  01:07:24 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:07:24 Demo Controller - Index method called(Home Page)
+INFO  01:13:08 Application started. Press Ctrl+C to shut down.
+INFO  01:13:08 Hosting environment: Development
+INFO  01:13:08 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:13:08 Demo Controller - Index method called(Home Page)
+ERROR 01:13:17 The view 'Index' was not found. Searched locations: /Views/Customer/Index.cshtml, /Views/Shared/Index.cshtml
+ERROR 01:13:17 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Customer/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:14:15 Application started. Press Ctrl+C to shut down.
+INFO  01:14:15 Hosting environment: Development
+INFO  01:14:15 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:14:15 Demo Controller - Index method called(Home Page)
+INFO  01:14:26 Home Controller - Index method called
+INFO  01:23:10 Application started. Press Ctrl+C to shut down.
+INFO  01:23:10 Hosting environment: Development
+INFO  01:23:10 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:23:10 Demo Controller - Index method called(Home Page)
+INFO  01:23:29 Home Controller - Admin method called
+INFO  01:30:15 Application started. Press Ctrl+C to shut down.
+INFO  01:30:15 Hosting environment: Development
+INFO  01:30:15 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:30:15 Demo Controller - Index method called(Home Page)
+INFO  01:32:59 Home Controller - Vendor method called
+INFO  09:45:22 Application started. Press Ctrl+C to shut down.
+INFO  09:45:22 Hosting environment: Development
+INFO  09:45:22 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:45:23 Demo Controller - Index method called(Home Page)
+INFO  09:45:46 Application started. Press Ctrl+C to shut down.
+INFO  09:45:46 Hosting environment: Development
+INFO  09:45:46 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:45:46 Demo Controller - Index method called(Home Page)
+INFO  09:46:59 Application started. Press Ctrl+C to shut down.
+INFO  09:46:59 Hosting environment: Development
+INFO  09:46:59 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:47:07 Application started. Press Ctrl+C to shut down.
+INFO  09:47:07 Hosting environment: Development
+INFO  09:47:07 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:48:18 Application started. Press Ctrl+C to shut down.
+INFO  09:48:18 Hosting environment: Development
+INFO  09:48:18 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:49:22 Application started. Press Ctrl+C to shut down.
+INFO  09:49:22 Hosting environment: Development
+INFO  09:49:22 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:49:37 Application started. Press Ctrl+C to shut down.
+INFO  09:49:37 Hosting environment: Development
+INFO  09:49:37 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:49:45 Application started. Press Ctrl+C to shut down.
+INFO  09:49:45 Hosting environment: Development
+INFO  09:49:45 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:49:53 Application started. Press Ctrl+C to shut down.
+INFO  09:49:53 Hosting environment: Development
+INFO  09:49:53 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:50:01 Application started. Press Ctrl+C to shut down.
+INFO  09:50:01 Hosting environment: Development
+INFO  09:50:01 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:50:08 Application started. Press Ctrl+C to shut down.
+INFO  09:50:08 Hosting environment: Development
+INFO  09:50:08 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:50:25 Application started. Press Ctrl+C to shut down.
+INFO  09:50:25 Hosting environment: Development
+INFO  09:50:25 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:50:50 Application started. Press Ctrl+C to shut down.
+INFO  09:50:50 Hosting environment: Development
+INFO  09:50:50 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:51:09 Application started. Press Ctrl+C to shut down.
+INFO  09:51:09 Hosting environment: Development
+INFO  09:51:09 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:51:22 Application started. Press Ctrl+C to shut down.
+INFO  09:51:22 Hosting environment: Development
+INFO  09:51:22 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:51:51 Application started. Press Ctrl+C to shut down.
+INFO  09:51:51 Hosting environment: Development
+INFO  09:51:51 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:52:12 Application started. Press Ctrl+C to shut down.
+INFO  09:52:12 Hosting environment: Development
+INFO  09:52:12 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:52:30 Application started. Press Ctrl+C to shut down.
+INFO  09:52:30 Hosting environment: Development
+INFO  09:52:30 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:53:58 Application started. Press Ctrl+C to shut down.
+INFO  09:53:58 Hosting environment: Development
+INFO  09:53:58 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:54:16 Application started. Press Ctrl+C to shut down.
+INFO  09:54:16 Hosting environment: Development
+INFO  09:54:16 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:54:35 Application started. Press Ctrl+C to shut down.
+INFO  09:54:35 Hosting environment: Development
+INFO  09:54:35 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:54:52 Application started. Press Ctrl+C to shut down.
+INFO  09:54:52 Hosting environment: Development
+INFO  09:54:52 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:55:46 Application started. Press Ctrl+C to shut down.
+INFO  09:55:46 Hosting environment: Development
+INFO  09:55:46 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:55:54 Application started. Press Ctrl+C to shut down.
+INFO  09:55:54 Hosting environment: Development
+INFO  09:55:54 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:56:11 Application started. Press Ctrl+C to shut down.
+INFO  09:56:11 Hosting environment: Development
+INFO  09:56:11 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  09:57:27 Application started. Press Ctrl+C to shut down.
+INFO  09:57:27 Hosting environment: Development
+INFO  09:57:27 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:03:13 Application started. Press Ctrl+C to shut down.
+INFO  10:03:13 Hosting environment: Development
+INFO  10:03:13 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart

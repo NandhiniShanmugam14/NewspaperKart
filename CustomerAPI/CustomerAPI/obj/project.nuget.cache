@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wI46wMJNldTK8OabmAHGLSiRJ2hew8txuhxzt/fQl5+C9b27r4eTdY9u0zrINwkdaS2jov974a+8XSyn9IfR9g==",
+  "dgSpecHash": "CPmXYPhRGbrtzrGdT0bemwIdbQT18+yzU/7M+BNs+53VkrM5JL4+5Z3AZf2rbXEV5IKketlDwQN+Bubm6fVATQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Documents\\Technical Training\\Projects\\Newspapercartsite\\CustomerAPI\\CustomerAPI\\CustomerAPI.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\Technical_Training\\Projects\\Newspapercartsite\\CustomerAPI\\CustomerAPI\\CustomerAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

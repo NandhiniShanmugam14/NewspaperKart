@@ -11,6 +11,6 @@
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>False</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_DbContextTypeFullName>NewspaperKart.CTSModel.NewspaperkartContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_LayoutPageFile />
-    <ShowAllFiles>true</ShowAllFiles>
+    <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
 </Project>
