@@ -31,6 +31,15 @@ namespace AdminAPI.Controllers
             await db.SaveChangesAsync();
             return Ok();
         }
+
+        [HttpPost]
+        [Route("Login")]
+        public IActionResult AdminLogin(Admintbl a)
+        {
+            Admintbl admin = (from i in db.Admintbls where i.UserName == a.UserName && i.Password == a.Password select i).FirstOrDefault();
+            return Ok(admin);
+        }
+
         [HttpPut]
         public async Task<IActionResult> UpdateAdmin(int id, Admintbl c)
         {

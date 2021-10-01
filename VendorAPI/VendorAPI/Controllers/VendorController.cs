@@ -31,6 +31,16 @@ namespace VendorAPI.Controllers
             await db.SaveChangesAsync();
             return Ok();
         }
+
+        [HttpPost]
+        [Route("Login")]
+
+        public IActionResult VendorLogin(Vendortbl v)
+        {
+            Vendortbl vendor = (from i in db.Vendortbls where i.UserName == v.UserName && i.Password == v.Password select i).FirstOrDefault();
+            return Ok(vendor);
+        }
+
         [HttpPut]
         public async Task<IActionResult> UpdateVendor(int id, Vendortbl c)
         {
@@ -50,7 +60,7 @@ namespace VendorAPI.Controllers
         }
 
         [HttpGet]
-        [Route("id")]
+        [Route("{id}")]
         public async Task<ActionResult<Vendortbl>> GetVendorById(int id)
         {
             Vendortbl c = await db.Vendortbls.FindAsync(id);

@@ -31,6 +31,17 @@ namespace CustomerAPI.Controllers
             await db.SaveChangesAsync();
             return Ok();
         }
+
+        [HttpPost]
+        [Route("Login")]
+
+        public IActionResult CustomerLogin(Customertbl c)
+        {
+            Customertbl cus = (from i in db.Customertbls where i.UserName == c.UserName && i.Password == c.Password select i).FirstOrDefault();
+            return Ok(cus);
+        }
+
+
         [HttpPut]
         public async Task<IActionResult> UpdateAccount(int id, Customertbl c)
         {

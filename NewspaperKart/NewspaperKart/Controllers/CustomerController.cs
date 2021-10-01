@@ -53,7 +53,7 @@ namespace NewspaperKart.Controllers
             {
                 StringContent c_content = new StringContent(JsonConvert.SerializeObject(c), Encoding.UTF8, "application/json");
                 var response = client.PostAsync("https://localhost:44318/api/Authorization/Customer", c_content).Result;
-                var response1 = client.PostAsync("https://localhost:44322/api/Customer", c_content).Result;
+                var response1 = client.PostAsync("https://localhost:44322/api/Customer/Login", c_content).Result;
                 if (response.IsSuccessStatusCode)
                 {
                     if (response1.IsSuccessStatusCode)
@@ -64,8 +64,8 @@ namespace NewspaperKart.Controllers
                         string c1 = response1.Content.ReadAsStringAsync().Result;
                         Customertbl CustomerDetails = JsonConvert.DeserializeObject<Customertbl>(c1);
 
-                        HttpContext.Session.SetString("Username", CustomerDetails.UserName);
-                        HttpContext.Session.SetInt32("UserId", CustomerDetails.CustomerId);
+                        HttpContext.Session.SetString("CustUsername", CustomerDetails.UserName);
+                        HttpContext.Session.SetInt32("CustUserId", CustomerDetails.CustomerId);
 
                         IJwtValidator _validator = new JwtValidator(_serializer, _provider);
                         IJwtDecoder decoder = new JwtDecoder(_serializer, _validator, _urlEncoder, _algorithm);
@@ -78,7 +78,7 @@ namespace NewspaperKart.Controllers
                     }
                     else
                     {
-                        return RedirectToAction("Index", "Home");
+                        return View();
                     }
                 }
                 return View();
@@ -208,7 +208,15 @@ namespace NewspaperKart.Controllers
         }
 
 
-
+        public IActionResult CustomerLogout()
+        {
+            if (Request.Cookies["Token"] != null)
+            {
+                Response.Cookies.Delete("Token");
+            }
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Demo");
+        }
 
 
 

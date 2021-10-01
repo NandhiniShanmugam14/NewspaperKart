@@ -51,7 +51,7 @@ namespace NewspaperKart.Controllers
             {
                 StringContent c_content = new StringContent(JsonConvert.SerializeObject(v), Encoding.UTF8, "application/json");
                 var response = client.PostAsync("https://localhost:44318/api/Authorization/Vendor", c_content).Result;
-                var response1 = client.PostAsync("https://localhost:44325/api/Vendor", c_content).Result;
+                var response1 = client.PostAsync("https://localhost:44325/api/Vendor/Login", c_content).Result;
                 if (response.IsSuccessStatusCode)
                 {
                     if (response1.IsSuccessStatusCode)
@@ -60,10 +60,10 @@ namespace NewspaperKart.Controllers
                         HttpContext.Response.Cookies.Append("Token", Token);
 
                         string c1 = response1.Content.ReadAsStringAsync().Result;
-                        Vendortbl AdminDetails = JsonConvert.DeserializeObject<Vendortbl>(c1);
+                        Vendortbl VendorDetails = JsonConvert.DeserializeObject<Vendortbl>(c1);
 
-                        HttpContext.Session.SetString("Username", AdminDetails.UserName);
-                        HttpContext.Session.SetInt32("UserId", AdminDetails.VendorId);
+                        HttpContext.Session.SetString("VendorUsername", VendorDetails.UserName);
+                        HttpContext.Session.SetInt32("VendorUserId", VendorDetails.VendorId);
 
                         IJwtValidator _validator = new JwtValidator(_serializer, _provider);
                         IJwtDecoder decoder = new JwtDecoder(_serializer, _validator, _urlEncoder, _algorithm);
@@ -76,7 +76,7 @@ namespace NewspaperKart.Controllers
                     }
                     else
                     {
-                        return RedirectToAction("Vendor", "Home");
+                        return View();
                     }
                 }
                 return View();
@@ -106,6 +106,16 @@ namespace NewspaperKart.Controllers
                 }
             }
             return RedirectToAction("VendorLogin", "Register");
+        }
+
+        public IActionResult VendorLogout()
+        {
+            if (Request.Cookies["Token"] != null)
+            {
+                Response.Cookies.Delete("Token");
+            }
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Demo");
         }
     }
 }

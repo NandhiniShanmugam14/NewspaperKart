@@ -38,9 +38,6 @@
         <nav class="navbar navbar-expand-lg py-3 navbar-dark shadow-sm" style="background-color: #020312;">
             <div class="container">
                 <a asp-controller="Demo" asp-action="Index" class="navbar-brand">
-                    <!-- Logo Image -->
-                    <img src="https://res.cloudinary.com/mhmd/image/upload/v1557368579/logo_iqjuay.png" width="45" alt="" class="d-inline-block align-middle mr-2">
-                    <!-- Logo Text -->
                     <img src="/images/newsgif.gif" alt="Flowers in Chania" width="100" height="50">
                     <span class="text-uppercase font-weight-bold" style="font-family: 'Comic Sans MS'">NEWSPAPER KART</span>
                 </a>
@@ -48,65 +45,85 @@
                 <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
 
                 @{
-                    ViewBag.Data = HttpContextAccessor.HttpContext.Session.GetString("username");
+                    ViewBag.Cust = @HttpContextAccessor.HttpContext.Session.GetString("CustUsername");
+                    ViewBag.Admin = @HttpContextAccessor.HttpContext.Session.GetString("AdminUsername");
+                    ViewBag.Vendor = @HttpContextAccessor.HttpContext.Session.GetString("VendorUsername");
                 }
 
-                @if (ViewBag.Data != null)
+                @*Customer*@
+
+                @if (ViewBag.Cust != null && ViewBag.Admin == null && ViewBag.Vendor == null)
                 {
 
                     <div id="navbarSupportedContent" class="collapse navbar-collapse">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item"><a asp-action="AddFeedback" asp-controller="Feedback" class="nav-link">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link">Hello @ViewBag.Data!</a></li>
+                            <li class="nav-item"><a class="nav-link">Hello @ViewBag.Cust!</a></li>
                         </ul>
                     </div>
 
 
-                    <form id="logoutForm" class="form-inline" asp-controller="Login" asp-action="logout" asp-route-returnUrl="@Url.Action("Login", "Login", new { area = "" })">
+                    <form id="logoutForm" class="form-inline" asp-controller="Customer" asp-action="CustomerLogout" asp-route-returnUrl="@Url.Action("Index", "Demo", new { area = "" })">
                         <div id="navbarSupportedContent" class="collapse navbar-collapse">
                             <ul class="navbar-nav ml-auto">
-                                <li class="nav-item"><input value="Logout" type="submit" id="logout" onclick="return confirm('Are you sure you want to logout??')" class="nav-link" style="margin-right: 10%; padding: 12px; margin: 0 10px; justify-content: space-between; border: 1px solid black; background: none; " /></li>
+                                <li class="nav-item"><input value="Logout" type="submit" id="logout" onclick="return confirm('Are you sure you want to logout??')" class="nav-link" style="margin-right: 10%; padding: 12px; margin: 0 10px; justify-content: space-between; border: 1px solid black; background: none; color: white;" /></li>
                             </ul>
                         </div>
                     </form>
-
-
                 }
 
-                @*else
+                @*Admin*@
+
+                else if (ViewBag.Cust == null && ViewBag.Admin != null && ViewBag.Vendor == null)
                 {
                     <div id="navbarSupportedContent" class="collapse navbar-collapse">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a asp-action="Login" asp-controller="Login" class="nav-link">Login</a></li>
+                            <li class="nav-item"><a asp-action="AddFeedback" asp-controller="Feedback" class="nav-link">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link">Hello @ViewBag.Admin!</a></li>
                         </ul>
                     </div>
-                }*@
+
+
+                    <form id="logoutForm" class="form-inline" asp-controller="Admin" asp-action="AdminLogout" asp-route-returnUrl="@Url.Action("Index", "Demo", new { area = "" })">
+                        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"><input value="Logout" type="submit" id="logout" onclick="return confirm('Are you sure you want to logout??')" class="nav-link" style="margin-right: 10%; padding: 12px; margin: 0 10px; justify-content: space-between; border: 1px solid black; background: none; color: white;" /></li>
+                            </ul>
+                        </div>
+                    </form>
+                }
+
+                @*Vendor*@
+
+                else if (ViewBag.Cust == null && ViewBag.Admin == null && ViewBag.Vendor != null)
+                {
+                    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a asp-action="AddFeedback" asp-controller="Feedback" class="nav-link">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link">Hello @ViewBag.Vendor!</a></li>
+                        </ul>
+                    </div>
+
+
+                    <form id="logoutForm" class="form-inline" asp-controller="Vendor" asp-action="VendorLogout" asp-route-returnUrl="@Url.Action("Index", "Demo", new { area = "" })">
+                        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item"><input value="Logout" type="submit" id="logout" onclick="return confirm('Are you sure you want to logout??')" class="nav-link" style="margin-right: 10%; padding: 12px; margin: 0 10px; justify-content: space-between; border: 1px solid black; background: none; color: white;" /></li>
+                            </ul>
+                        </div>
+                    </form>
+                }
+
+                else
+                {
+                    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ml-auto">
+                            @*<li class="nav-item"><a asp-action="Login" asp-controller="Login" class="nav-link">Login</a></li>*@
+                        </ul>
+                    </div>
+                }
             </div>
         </nav>
-        @*<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Demo" asp-action="Index">NewspaperKart</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-
-
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Demo" asp-action="Index">Logout</a>
-                        </li>
-                    </ul>
-
-                </div>
-            </div>
-        </nav>*@
     </header>
     <div class="container">
         <main role="main" class="pb-3">

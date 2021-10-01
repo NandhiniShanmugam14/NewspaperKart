@@ -1052,3 +1052,329 @@ INFO  12:37:28 Application started. Press Ctrl+C to shut down.
 INFO  12:37:28 Hosting environment: Development
 INFO  12:37:28 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
 INFO  12:37:28 Home Controller - Vendor method called
+INFO  12:40:39 Demo Controller - Index method called(Home Page)
+INFO  12:50:07 Application started. Press Ctrl+C to shut down.
+INFO  12:50:07 Hosting environment: Development
+INFO  12:50:07 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:50:07 Demo Controller - Index method called(Home Page)
+INFO  12:53:32 Application started. Press Ctrl+C to shut down.
+INFO  12:53:32 Hosting environment: Development
+INFO  12:53:32 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:53:32 Demo Controller - Index method called(Home Page)
+INFO  12:54:00 Application started. Press Ctrl+C to shut down.
+INFO  12:54:00 Hosting environment: Development
+INFO  12:54:00 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:54:00 Demo Controller - Index method called(Home Page)
+INFO  12:54:12 Application started. Press Ctrl+C to shut down.
+INFO  12:54:12 Hosting environment: Development
+INFO  12:54:12 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:54:12 Demo Controller - Index method called(Home Page)
+INFO  12:54:24 Application started. Press Ctrl+C to shut down.
+INFO  12:54:24 Hosting environment: Development
+INFO  12:54:24 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:54:24 Demo Controller - Index method called(Home Page)
+INFO  12:54:35 Home Controller - Index method called
+INFO  12:54:48 Demo Controller - Index method called(Home Page)
+INFO  12:54:56 Demo Controller - Index method called(Home Page)
+INFO  12:55:00 Demo Controller - Index method called(Home Page)
+INFO  12:55:33 Application started. Press Ctrl+C to shut down.
+INFO  12:55:33 Hosting environment: Development
+INFO  12:55:33 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:55:33 Demo Controller - Index method called(Home Page)
+INFO  12:56:13 Demo Controller - Index method called(Home Page)
+INFO  12:56:16 Demo Controller - Index method called(Home Page)
+INFO  12:56:43 Home Controller - Index method called
+INFO  12:56:48 Demo Controller - Index method called(Home Page)
+INFO  12:56:53 Demo Controller - Index method called(Home Page)
+INFO  12:56:54 Demo Controller - Index method called(Home Page)
+INFO  12:57:03 Demo Controller - Index method called(Home Page)
+INFO  12:57:27 Application started. Press Ctrl+C to shut down.
+INFO  12:57:27 Hosting environment: Development
+INFO  12:57:27 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:57:27 Demo Controller - Index method called(Home Page)
+INFO  12:57:30 Demo Controller - Index method called(Home Page)
+INFO  12:57:42 Application started. Press Ctrl+C to shut down.
+INFO  12:57:42 Hosting environment: Development
+INFO  12:57:42 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:57:42 Demo Controller - Index method called(Home Page)
+INFO  12:57:57 Application started. Press Ctrl+C to shut down.
+INFO  12:57:57 Hosting environment: Development
+INFO  12:57:57 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:57:57 Demo Controller - Index method called(Home Page)
+INFO  12:58:05 Home Controller - Index method called
+INFO  12:59:10 Application started. Press Ctrl+C to shut down.
+INFO  12:59:10 Hosting environment: Development
+INFO  12:59:10 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:59:10 Home Controller - Index method called
+ERROR 12:59:14 The view 'Index' was not found. Searched locations: /Views/Customer/Index.cshtml, /Views/Shared/Index.cshtml
+ERROR 12:59:14 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Customer/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  12:59:20 Home Controller - Index method called
+ERROR 12:59:57 The view 'Index' was not found. Searched locations: /Views/Customer/Index.cshtml, /Views/Shared/Index.cshtml
+ERROR 12:59:58 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Customer/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:00:22 Demo Controller - Index method called(Home Page)
+INFO  01:00:31 Demo Controller - Index method called(Home Page)
+INFO  01:00:56 Home Controller - Index method called
+ERROR 01:01:00 The view 'Index' was not found. Searched locations: /Views/Customer/Index.cshtml, /Views/Shared/Index.cshtml
+ERROR 01:01:00 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Customer/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:01:03 Home Controller - Index method called
+INFO  01:01:05 Home Controller - Index method called
+ERROR 01:01:08 The view 'Index' was not found. Searched locations: /Views/Customer/Index.cshtml, /Views/Shared/Index.cshtml
+ERROR 01:01:08 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Customer/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  01:01:44 Application started. Press Ctrl+C to shut down.
+INFO  01:01:44 Hosting environment: Development
+INFO  01:01:44 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:01:44 Home Controller - Index method called
+INFO  01:01:48 Demo Controller - Index method called(Home Page)
+INFO  01:01:52 Demo Controller - Index method called(Home Page)
+INFO  01:02:05 Application started. Press Ctrl+C to shut down.
+INFO  01:02:05 Hosting environment: Development
+INFO  01:02:05 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:02:05 Demo Controller - Index method called(Home Page)
+INFO  01:02:13 Home Controller - Index method called
+INFO  01:03:23 Application started. Press Ctrl+C to shut down.
+INFO  01:03:23 Hosting environment: Development
+INFO  01:03:23 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:03:23 Demo Controller - Index method called(Home Page)
+INFO  01:05:25 Home Controller - Index method called
+INFO  01:10:30 Application started. Press Ctrl+C to shut down.
+INFO  01:10:30 Hosting environment: Development
+INFO  01:10:30 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:10:30 Demo Controller - Index method called(Home Page)
+INFO  01:10:55 Application started. Press Ctrl+C to shut down.
+INFO  01:10:55 Hosting environment: Development
+INFO  01:10:55 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:10:55 Demo Controller - Index method called(Home Page)
+INFO  01:13:42 Application started. Press Ctrl+C to shut down.
+INFO  01:13:42 Hosting environment: Development
+INFO  01:13:42 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:13:42 Demo Controller - Index method called(Home Page)
+INFO  01:14:19 Application started. Press Ctrl+C to shut down.
+INFO  01:14:19 Hosting environment: Development
+INFO  01:14:19 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:14:19 Demo Controller - Index method called(Home Page)
+INFO  01:23:47 Application started. Press Ctrl+C to shut down.
+INFO  01:23:47 Hosting environment: Development
+INFO  01:23:47 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:23:47 Demo Controller - Index method called(Home Page)
+INFO  01:24:04 Home Controller - Index method called
+INFO  01:24:11 Demo Controller - Index method called(Home Page)
+INFO  01:24:14 Home Controller - Index method called
+INFO  01:24:39 NewspaperDetails Controller - The Hindu
+INFO  01:24:44 Home Controller - Index method called
+INFO  01:24:49 NewspaperDetails Controller - Deccan Chronicle
+INFO  01:46:35 Application started. Press Ctrl+C to shut down.
+INFO  01:46:35 Hosting environment: Development
+INFO  01:46:35 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:46:35 Demo Controller - Index method called(Home Page)
+INFO  01:46:45 Home Controller - Index method called
+INFO  01:46:49 Demo Controller - Index method called(Home Page)
+INFO  01:46:59 Demo Controller - Index method called(Home Page)
+INFO  01:47:00 Demo Controller - Index method called(Home Page)
+INFO  01:47:02 Demo Controller - Index method called(Home Page)
+INFO  01:48:15 Application started. Press Ctrl+C to shut down.
+INFO  01:48:15 Hosting environment: Development
+INFO  01:48:15 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:48:15 Demo Controller - Index method called(Home Page)
+INFO  01:52:36 Home Controller - Index method called
+INFO  01:53:02 Demo Controller - Index method called(Home Page)
+INFO  01:53:52 Home Controller - Index method called
+INFO  01:53:54 Home Controller - Index method called
+INFO  01:53:57 Demo Controller - Index method called(Home Page)
+INFO  01:53:59 Demo Controller - Index method called(Home Page)
+INFO  01:54:03 Demo Controller - Index method called(Home Page)
+INFO  01:58:03 Application started. Press Ctrl+C to shut down.
+INFO  01:58:03 Hosting environment: Development
+INFO  01:58:03 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:58:03 Demo Controller - Index method called(Home Page)
+INFO  01:58:29 Home Controller - Index method called
+INFO  01:58:32 Demo Controller - Index method called(Home Page)
+INFO  02:01:41 Application started. Press Ctrl+C to shut down.
+INFO  02:01:41 Hosting environment: Development
+INFO  02:01:41 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:01:41 Demo Controller - Index method called(Home Page)
+INFO  02:01:50 Home Controller - Index method called
+INFO  02:01:55 Demo Controller - Index method called(Home Page)
+INFO  02:01:58 Demo Controller - Index method called(Home Page)
+INFO  02:02:00 Demo Controller - Index method called(Home Page)
+INFO  02:02:03 Demo Controller - Index method called(Home Page)
+INFO  02:02:04 Demo Controller - Index method called(Home Page)
+INFO  02:02:05 Demo Controller - Index method called(Home Page)
+INFO  02:02:18 Application started. Press Ctrl+C to shut down.
+INFO  02:02:18 Hosting environment: Development
+INFO  02:02:18 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:02:18 Demo Controller - Index method called(Home Page)
+INFO  02:02:28 Home Controller - Index method called
+INFO  02:02:31 NewspaperDetails Controller - Deccan Chronicle
+INFO  02:02:33 Home Controller - Index method called
+INFO  02:02:36 Demo Controller - Index method called(Home Page)
+INFO  02:02:39 Demo Controller - Index method called(Home Page)
+INFO  02:03:13 Application started. Press Ctrl+C to shut down.
+INFO  02:03:13 Hosting environment: Development
+INFO  02:03:13 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:03:13 Demo Controller - Index method called(Home Page)
+INFO  02:03:23 Home Controller - Index method called
+INFO  02:03:26 Demo Controller - Index method called(Home Page)
+INFO  02:07:20 Application started. Press Ctrl+C to shut down.
+INFO  02:07:20 Hosting environment: Development
+INFO  02:07:20 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:07:20 Demo Controller - Index method called(Home Page)
+INFO  02:07:32 Home Controller - Index method called
+INFO  02:07:38 Demo Controller - Index method called(Home Page)
+INFO  02:10:35 Application started. Press Ctrl+C to shut down.
+INFO  02:10:35 Hosting environment: Development
+INFO  02:10:35 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:10:35 Demo Controller - Index method called(Home Page)
+INFO  02:10:44 Home Controller - Index method called
+INFO  02:10:48 Demo Controller - Index method called(Home Page)
+INFO  02:10:57 Demo Controller - Index method called(Home Page)
+INFO  02:22:29 Application started. Press Ctrl+C to shut down.
+INFO  02:22:29 Hosting environment: Development
+INFO  02:22:29 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:22:29 Demo Controller - Index method called(Home Page)
+INFO  02:22:48 Home Controller - Index method called
+INFO  02:22:53 Demo Controller - Index method called(Home Page)
+INFO  02:23:05 Home Controller - Admin method called
+INFO  02:23:12 Demo Controller - Index method called(Home Page)
+INFO  02:23:14 Demo Controller - Index method called(Home Page)
+INFO  02:23:15 Demo Controller - Index method called(Home Page)
+INFO  02:27:35 Application started. Press Ctrl+C to shut down.
+INFO  02:27:35 Hosting environment: Development
+INFO  02:27:35 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:27:35 Demo Controller - Index method called(Home Page)
+INFO  02:27:43 Home Controller - Index method called
+INFO  02:27:47 Demo Controller - Index method called(Home Page)
+INFO  02:27:51 Demo Controller - Index method called(Home Page)
+INFO  02:28:55 Application started. Press Ctrl+C to shut down.
+INFO  02:28:55 Hosting environment: Development
+INFO  02:28:55 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:28:55 Demo Controller - Index method called(Home Page)
+INFO  02:29:06 Home Controller - Index method called
+INFO  02:29:10 Demo Controller - Index method called(Home Page)
+INFO  02:29:28 Home Controller - Admin method called
+INFO  02:30:39 Application started. Press Ctrl+C to shut down.
+INFO  02:30:39 Hosting environment: Development
+INFO  02:30:39 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:30:39 Demo Controller - Index method called(Home Page)
+INFO  02:30:49 Home Controller - Index method called
+INFO  02:30:55 Demo Controller - Index method called(Home Page)
+INFO  02:31:02 Home Controller - Admin method called
+INFO  02:31:05 Demo Controller - Index method called(Home Page)
+INFO  02:31:14 Home Controller - Vendor method called
+INFO  02:31:23 Demo Controller - Index method called(Home Page)
+INFO  02:31:30 Home Controller - Index method called
+INFO  02:32:07 Application started. Press Ctrl+C to shut down.
+INFO  02:32:07 Hosting environment: Development
+INFO  02:32:07 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:32:07 Demo Controller - Index method called(Home Page)
+INFO  02:32:59 Home Controller - Index method called
+INFO  02:33:02 Demo Controller - Index method called(Home Page)
+INFO  02:33:10 Home Controller - Admin method called
+INFO  02:33:18 Demo Controller - Index method called(Home Page)
+INFO  02:33:26 Home Controller - Vendor method called
+INFO  02:33:31 Demo Controller - Index method called(Home Page)
+INFO  02:33:42 Home Controller - Admin method called
+INFO  02:36:15 Application started. Press Ctrl+C to shut down.
+INFO  02:36:15 Hosting environment: Development
+INFO  02:36:15 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:36:15 Demo Controller - Index method called(Home Page)
+INFO  02:36:19 Home Controller - Index method called
+INFO  02:36:21 Demo Controller - Index method called(Home Page)
+INFO  02:36:22 Demo Controller - Index method called(Home Page)
+INFO  02:36:46 Application started. Press Ctrl+C to shut down.
+INFO  02:36:46 Hosting environment: Development
+INFO  02:36:46 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:36:46 Demo Controller - Index method called(Home Page)
+INFO  02:37:07 Home Controller - Index method called
+INFO  02:37:11 Demo Controller - Index method called(Home Page)
+INFO  02:37:20 Home Controller - Admin method called
+INFO  02:37:23 Demo Controller - Index method called(Home Page)
+INFO  02:37:31 Home Controller - Vendor method called
+INFO  02:37:34 Demo Controller - Index method called(Home Page)
