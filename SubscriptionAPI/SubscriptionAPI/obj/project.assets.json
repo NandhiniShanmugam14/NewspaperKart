@@ -5985,11 +5985,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\Technical Training\\Projects\\Newspapercartsite\\SubscriptionAPI\\SubscriptionAPI\\SubscriptionAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\Technical_Training\\Projects\\Newspapercartsite\\SubscriptionAPI\\SubscriptionAPI\\SubscriptionAPI.csproj",
       "projectName": "SubscriptionAPI",
-      "projectPath": "C:\\Users\\Administrator\\Documents\\Technical Training\\Projects\\Newspapercartsite\\SubscriptionAPI\\SubscriptionAPI\\SubscriptionAPI.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\Technical_Training\\Projects\\Newspapercartsite\\SubscriptionAPI\\SubscriptionAPI\\SubscriptionAPI.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Documents\\Technical Training\\Projects\\Newspapercartsite\\SubscriptionAPI\\SubscriptionAPI\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\Technical_Training\\Projects\\Newspapercartsite\\SubscriptionAPI\\SubscriptionAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
