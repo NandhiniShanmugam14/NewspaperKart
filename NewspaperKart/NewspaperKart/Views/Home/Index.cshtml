@@ -1,5 +1,5 @@
-﻿<style>
-        
+﻿<head>
+    <style>
         .tiles .link-tiles {
             margin-bottom: 20px;
             background: #090226;
@@ -28,110 +28,69 @@
             transition: all, 0.4s, ease;
         }
 
-            .link-tiles:hover a {
-                /*    color: #f1f1f1;
+        .link-tiles:hover a {
+            color: lightgreen;
+        }
 
-    */
-                color: lightgreen;
-            }
-
-            .link-tiles:hover a {
-                /*        color: #f1f1f1;
-    */ color: lightgreen;
-            }
-</style>
-
-<div class="justify-content-xl-center" align="center">
-
-    <br />
-
-    <section class="tiles">
-        <div class="container">
-            <div class="">
-                <h2 style="font-family: 'Comic Sans MS'">Most Popular</h2><br /><br />
+        .link-tiles:hover a {
+            color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="justify-content-xl-center" align="center">
+        <br />
+        <section class="tiles">
+            <div class="container">
+                <h2 style="font-family: 'Comic Sans MS'">Most Popular</h2>
+                <br /><br />
                 <div class="row">
                     <div class="col-md-3">
                         <div class="link-tiles" style="border-radius: 10px;">
-
                             @Html.ActionLink("The Times of India", "TimesOfIndia", "NewspaperDetails")
-
                         </div>
-                        <!--.link-tiles-->
                     </div>
                     <div class="col-md-3">
                         <div class="link-tiles" style="padding-left: 3rem; border-radius: 10px;">
                             @Html.ActionLink("Indian Era", "Indianera", "NewspaperDetails")
-
                         </div>
-                        <!--.link-tiles-->
                     </div>
-
                     <div class="col-md-3">
                         <div class="link-tiles" style="padding-left: 3rem; border-radius: 10px;">
                             @Html.ActionLink("The Hindu", "TheHindu", "NewspaperDetails")
-
                         </div>
-                        <!--.link-tiles-->
                     </div>
                     <div class="col-md-3">
                         <div class="link-tiles" style="border-radius: 10px;">
                             @Html.ActionLink("Hindustan Times", "HindustanTimes", "NewspaperDetails")
-
                         </div>
-                        <!--.link-tiles-->
                     </div>
                     <div class="col-md-3">
                         <div class="link-tiles" style="border-radius: 10px;">
                             @Html.ActionLink("The Economic Times", "EconomicalTimes", "NewspaperDetails")
-
                         </div>
-                        <!--.link-tiles-->
                     </div>
                     <div class="col-md-3">
                         <div class="link-tiles" style="border-radius: 10px;">
                             @Html.ActionLink("Deccan Chronicle", "DeccanChronicle", "NewspaperDetails")
-
                         </div>
-                        <!--.link-tiles-->
                     </div>
                     <div class="col-md-3">
                         <div class="link-tiles" style="border-radius: 10px;">
                             @Html.ActionLink("Business Standard", "BusinessStandard", "NewspaperDetails")
-
                         </div>
-                        <!--.link-tiles-->
                     </div>
                     <div class="col-md-3">
                         <div class="link-tiles" style="border-radius: 10px;">
                             @Html.ActionLink("The Indian Express", "IndianExpress", "NewspaperDetails")
-
                         </div>
-                        <!--.link-tiles-->
                     </div>
-
-
-
                 </div>
             </div>
-            <!--.row-->
+        </section>
+        <div class="justify-content-xl-center" align="center">
+            <a asp-action="AddSubscription" asp-controller="Subscription" class="btn btn-primary">Subscribe</a>
+            @*<a asp-action="Index" asp-controller="Partner" class="btn btn-primary">Partner with us?</a>*@
         </div>
-        <!--.container-->
-    </section>
-
-    <div class="justify-content-xl-center" align="center">
-        <a asp-action="AddSubscription" asp-controller="Subscription" class="btn btn-primary">Subscribe</a>
-        @*&nbsp;&nbsp;
-        <a asp-action="Index" asp-controller="Partner" class="btn btn-primary">Partner with us?</a>*@
     </div>
-
-    @*<div class="justify-content-xl-center" align="center">
-        
-
-    </div>*@
-    <br />
-    @*<div class="justify-content-xl-center" align="center">
-        <a asp-action="Index" asp-controller="Contact" class="btn btn-outline-success">Contact</a>
-
-    </div>*@
-
-</div>
+</body>

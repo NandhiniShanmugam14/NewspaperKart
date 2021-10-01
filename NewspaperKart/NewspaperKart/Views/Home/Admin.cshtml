@@ -1,15 +1,8 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Admin</title>
+﻿<head>
     <style>
-        /*.tiles {
-         margin-top: 100px;
-         }*/
         .tiles .link-tiles {
             margin-bottom: 20px;
-            background: #F3f3f3;
+            background: #090226;
             height: 137px;
         }
 
@@ -19,100 +12,63 @@
                 height: 100%;
                 align-items: center;
                 position: relative;
-                color: #111;
+                color: white;
                 font-weight: 500;
                 font-size: 17px;
                 line-height: 20px;
-                padding-left: 1.2rem;
+                padding-left: 2.2rem;
                 text-transform: uppercase;
+                border-radius: 5px;
+                text-decoration: none;
             }
 
-        .link-tiles a:after {
-            font-family: FontAwesome;
-            content: "\f0c1";
-            top: 42%;
-            right: 30px;
-            position: absolute;
-            font-size: 1.5rem;
-        }
 
         .link-tiles:hover {
-            background: #333;
+            background: #0f194d;
             transition: all, 0.4s, ease;
         }
 
             .link-tiles:hover a {
-                /*    color: #f1f1f1;
-         */
                 color: lightgreen;
             }
 
             .link-tiles:hover a {
-                /*        color: #f1f1f1;
-         */ color: lightgreen;
+                color: lightgreen;
             }
     </style>
 </head>
 <body>
     <div class="justify-content-xl-center" align="center">
+        <br />
         <section class="tiles">
             <div class="container">
-                @*
-                    <div class="row">
-                *@
-                <h2>Admin Dashboard</h2>
-                <br /><br /><br /><br />
+                <h2 style="font-family: 'Comic Sans MS'">Admin Dashboard</h2>
+                <br /><br />
                 <div class="row">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="link-tiles">
+                    <div class="col-md-3">
+                        <div class="link-tiles" style="border-radius: 10px; padding-left: 2rem;">
                             @Html.ActionLink("Newspapers", "NewspaperList", "Newspaper")
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-4">
-                        <div class="link-tiles">
+                    <div class="col-md-3">
+                        <div class="link-tiles" style="border-radius: 10px; padding-left: 1rem;">
                             @Html.ActionLink("Subscription List", "CustomerList", "Customer")
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-4">
-                        <div class="link-tiles">
+                    <div class="col-md-3">
+                        <div class="link-tiles" style="border-radius: 10px; padding-left: 1rem;">
                             @Html.ActionLink("Vendor Details", "ViewPartner", "Partner")
                         </div>
                     </div>
-                    <div class="col-md-3 col-sm-4">
-                        <div class="link-tiles">
+                    <div class="col-md-3">
+                        <div class="link-tiles" style="border-radius: 10px; padding-left: 3rem;">
                             @Html.ActionLink("Contact", "ViewContact", "Contact")
                         </div>
                     </div>
-                    @*
-                        <div class="col-md-3 col-sm-4">
-                           <div class="link-tiles">
-                              @Html.ActionLink("The Economic Times", "Index", "EconomicTimes")
-                           </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4">
-                           <div class="link-tiles">
-                              @Html.ActionLink("Deccan Chronicle", "Index", "DeccanChronicle")
-                           </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4">
-                           <div class="link-tiles">
-                              @Html.ActionLink("Business Standard", "Index", "BusinessStandard")
-                           </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4">
-                           <div class="link-tiles">
-                              @Html.ActionLink("The Indian Express", "Index", "IndianExpress")
-                           </div>
-                        </div>
-                    *@
                 </div>
-                @*
-                    </div>
-                *@
-                <!--.row-->
             </div>
-            <!--.container-->
         </section>
     </div>
 </body>
-</html>
+
+
