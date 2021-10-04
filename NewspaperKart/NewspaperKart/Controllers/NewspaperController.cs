@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using NewspaperKart.CTSModel;
+//using NewspaperKart.CTSModel;
 using NewspaperKart.Models;
 using Newtonsoft.Json;
 using System;

@@ -1378,3 +1378,520 @@ INFO  02:37:20 Home Controller - Admin method called
 INFO  02:37:23 Demo Controller - Index method called(Home Page)
 INFO  02:37:31 Home Controller - Vendor method called
 INFO  02:37:34 Demo Controller - Index method called(Home Page)
+INFO  10:14:08 Application started. Press Ctrl+C to shut down.
+INFO  10:14:08 Hosting environment: Development
+INFO  10:14:08 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:14:08 Demo Controller - Index method called(Home Page)
+INFO  10:16:46 Home Controller - Index method called
+INFO  10:16:50 NewspaperDetails Controller - Times of India
+INFO  10:16:52 Home Controller - Index method called
+INFO  10:16:53 NewspaperDetails Controller - Indian Era
+INFO  10:16:54 Home Controller - Index method called
+INFO  10:16:55 NewspaperDetails Controller - Business Standard
+INFO  10:16:56 Home Controller - Index method called
+INFO  10:17:06 Subscription Controller - Index method called
+INFO  10:17:15 Home Controller - Index method called
+INFO  10:20:02 Feedback Controller - Add method called
+INFO  10:20:02 User Smith Added feedback
+INFO  10:20:04 Home Controller - Index method called
+INFO  10:36:27 Application started. Press Ctrl+C to shut down.
+INFO  10:36:27 Hosting environment: Development
+INFO  10:36:27 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:36:27 Demo Controller - Index method called(Home Page)
+INFO  10:36:38 Home Controller - Index method called
+INFO  10:38:17 Application started. Press Ctrl+C to shut down.
+INFO  10:38:17 Hosting environment: Development
+INFO  10:38:17 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:38:34 Application started. Press Ctrl+C to shut down.
+INFO  10:38:34 Hosting environment: Development
+INFO  10:38:34 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:39:02 Application started. Press Ctrl+C to shut down.
+INFO  10:39:02 Hosting environment: Development
+INFO  10:39:02 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:40:20 Application started. Press Ctrl+C to shut down.
+INFO  10:40:20 Hosting environment: Development
+INFO  10:40:20 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:40:37 Application started. Press Ctrl+C to shut down.
+INFO  10:40:37 Hosting environment: Development
+INFO  10:40:37 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:40:49 Application started. Press Ctrl+C to shut down.
+INFO  10:40:50 Hosting environment: Development
+INFO  10:40:50 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:41:17 Application started. Press Ctrl+C to shut down.
+INFO  10:41:17 Hosting environment: Development
+INFO  10:41:17 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:41:35 Application started. Press Ctrl+C to shut down.
+INFO  10:41:35 Hosting environment: Development
+INFO  10:41:35 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:41:44 Application started. Press Ctrl+C to shut down.
+INFO  10:41:44 Hosting environment: Development
+INFO  10:41:44 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:42:01 Application started. Press Ctrl+C to shut down.
+INFO  10:42:01 Hosting environment: Development
+INFO  10:42:01 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:42:52 Application started. Press Ctrl+C to shut down.
+INFO  10:42:52 Hosting environment: Development
+INFO  10:42:52 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:43:02 Application started. Press Ctrl+C to shut down.
+INFO  10:43:02 Hosting environment: Development
+INFO  10:43:02 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:43:13 Home Controller - Index method called
+INFO  10:43:14 NewspaperDetails Controller - Indian Express
+INFO  10:43:32 NewspaperDetails Controller - Indian Express
+INFO  10:43:40 Subscription Controller - Index method called
+INFO  10:44:12 Application started. Press Ctrl+C to shut down.
+INFO  10:44:12 Hosting environment: Development
+INFO  10:44:12 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:44:12 Subscription Controller - Index method called
+INFO  10:45:17 Home Controller - Index method called
+INFO  10:45:26 Home Controller - Index method called
+INFO  10:45:29 Subscription Controller - Index method called
+INFO  10:45:31 Demo Controller - Index method called(Home Page)
+INFO  10:45:50 Home Controller - Admin method called
+INFO  10:46:15 Application started. Press Ctrl+C to shut down.
+INFO  10:46:15 Hosting environment: Development
+INFO  10:46:15 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:46:15 Home Controller - Admin method called
+INFO  10:46:25 Application started. Press Ctrl+C to shut down.
+INFO  10:46:25 Hosting environment: Development
+INFO  10:46:25 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  10:46:25 Home Controller - Admin method called
+INFO  11:03:54 Home Controller - Admin method called
+INFO  11:04:31 Application started. Press Ctrl+C to shut down.
+INFO  11:04:31 Hosting environment: Development
+INFO  11:04:31 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  11:06:09 Application started. Press Ctrl+C to shut down.
+INFO  11:06:09 Hosting environment: Development
+INFO  11:06:09 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  11:06:45 Demo Controller - Index method called(Home Page)
+INFO  11:06:55 Home Controller - Admin method called
+INFO  11:07:03 Home Controller - Admin method called
+INFO  11:07:40 Application started. Press Ctrl+C to shut down.
+INFO  11:07:40 Hosting environment: Development
+INFO  11:07:40 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  11:07:41 Home Controller - Admin method called
+INFO  11:08:01 Application started. Press Ctrl+C to shut down.
+INFO  11:08:01 Hosting environment: Development
+INFO  11:08:01 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  11:08:01 Home Controller - Admin method called
+INFO  11:10:54 Application started. Press Ctrl+C to shut down.
+INFO  11:10:54 Hosting environment: Development
+INFO  11:10:54 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  11:10:54 Home Controller - Admin method called
+INFO  11:11:25 Application started. Press Ctrl+C to shut down.
+INFO  11:11:25 Hosting environment: Development
+INFO  11:11:25 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  11:11:25 Home Controller - Admin method called
+INFO  11:11:26 Newspaper Controller - View method called
+INFO  11:11:57 Application started. Press Ctrl+C to shut down.
+INFO  11:11:57 Hosting environment: Development
+INFO  11:11:57 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  11:11:57 Newspaper Controller - View method called
+INFO  11:12:32 Application started. Press Ctrl+C to shut down.
+INFO  11:12:32 Hosting environment: Development
+INFO  11:12:32 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  11:12:32 Newspaper Controller - View method called
+INFO  11:13:11 Application started. Press Ctrl+C to shut down.
+INFO  11:13:12 Hosting environment: Development
+INFO  11:13:12 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  11:13:12 Newspaper Controller - View method called
+INFO  11:13:27 Application started. Press Ctrl+C to shut down.
+INFO  11:13:27 Hosting environment: Development
+INFO  11:13:27 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  11:13:27 Newspaper Controller - View method called
+INFO  11:26:16 Application started. Press Ctrl+C to shut down.
+INFO  11:26:16 Hosting environment: Development
+INFO  11:26:16 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  11:26:16 Newspaper Controller - View method called
+INFO  11:36:20 Application started. Press Ctrl+C to shut down.
+INFO  11:36:20 Hosting environment: Development
+INFO  11:36:20 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  11:36:20 Newspaper Controller - View method called
+INFO  11:36:35 Application started. Press Ctrl+C to shut down.
+INFO  11:36:35 Hosting environment: Development
+INFO  11:36:35 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  11:36:35 Newspaper Controller - View method called
+INFO  11:47:10 Demo Controller - Index method called(Home Page)
+INFO  11:47:19 Home Controller - Admin method called
+INFO  11:47:24 Home Controller - Admin method called
+INFO  11:48:13 Newspaper Controller - View method called
+INFO  11:48:17 Newspaper Controller - View method called
+INFO  11:49:40 Demo Controller - Index method called(Home Page)
+INFO  11:49:48 Home Controller - Admin method called
+INFO  11:49:54 Newspaper Controller - View method called
+INFO  11:50:03 Demo Controller - Index method called(Home Page)
+INFO  11:50:11 Home Controller - Index method called
+INFO  12:12:20 Application started. Press Ctrl+C to shut down.
+INFO  12:12:20 Hosting environment: Development
+INFO  12:12:20 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:12:30 Application started. Press Ctrl+C to shut down.
+INFO  12:12:30 Hosting environment: Development
+INFO  12:12:30 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:13:14 Application started. Press Ctrl+C to shut down.
+INFO  12:13:14 Hosting environment: Development
+INFO  12:13:14 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:15:10 Application started. Press Ctrl+C to shut down.
+INFO  12:15:11 Hosting environment: Development
+INFO  12:15:11 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:15:42 Application started. Press Ctrl+C to shut down.
+INFO  12:15:42 Hosting environment: Development
+INFO  12:15:42 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:27:50 Application started. Press Ctrl+C to shut down.
+INFO  12:27:50 Hosting environment: Development
+INFO  12:27:50 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:27:50 Demo Controller - Index method called(Home Page)
+INFO  12:28:13 Home Controller - Admin method called
+INFO  12:28:22 Newspaper Controller - View method called
+INFO  12:28:56 Newspaper Controller - Add method called
+INFO  12:28:56 User 0 Registered
+INFO  12:28:56 Newspaper Controller - View method called
+INFO  12:31:12 Application started. Press Ctrl+C to shut down.
+INFO  12:31:12 Hosting environment: Development
+INFO  12:31:12 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:31:20 Application started. Press Ctrl+C to shut down.
+INFO  12:31:20 Hosting environment: Development
+INFO  12:31:20 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  12:31:26 Application started. Press Ctrl+C to shut down.
+INFO  12:31:26 Hosting environment: Development
+INFO  12:31:26 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:07:30 Application started. Press Ctrl+C to shut down.
+INFO  01:07:30 Hosting environment: Development
+INFO  01:07:30 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:08:03 Application started. Press Ctrl+C to shut down.
+INFO  01:08:03 Hosting environment: Development
+INFO  01:08:03 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:09:52 Application started. Press Ctrl+C to shut down.
+INFO  01:09:52 Hosting environment: Development
+INFO  01:09:52 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:10:23 Application started. Press Ctrl+C to shut down.
+INFO  01:10:23 Hosting environment: Development
+INFO  01:10:23 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:10:43 Application started. Press Ctrl+C to shut down.
+INFO  01:10:43 Hosting environment: Development
+INFO  01:10:43 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:10:59 Application started. Press Ctrl+C to shut down.
+INFO  01:10:59 Hosting environment: Development
+INFO  01:10:59 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:11:12 Application started. Press Ctrl+C to shut down.
+INFO  01:11:12 Hosting environment: Development
+INFO  01:11:12 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:12:01 Application started. Press Ctrl+C to shut down.
+INFO  01:12:01 Hosting environment: Development
+INFO  01:12:01 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:14:06 Application started. Press Ctrl+C to shut down.
+INFO  01:14:06 Hosting environment: Development
+INFO  01:14:06 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:14:20 Application started. Press Ctrl+C to shut down.
+INFO  01:14:20 Hosting environment: Development
+INFO  01:14:20 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:14:34 Application started. Press Ctrl+C to shut down.
+INFO  01:14:34 Hosting environment: Development
+INFO  01:14:34 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:14:49 Application started. Press Ctrl+C to shut down.
+INFO  01:14:49 Hosting environment: Development
+INFO  01:14:49 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:17:17 Application started. Press Ctrl+C to shut down.
+INFO  01:17:17 Hosting environment: Development
+INFO  01:17:17 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:18:15 Application started. Press Ctrl+C to shut down.
+INFO  01:18:15 Hosting environment: Development
+INFO  01:18:15 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:19:02 Application started. Press Ctrl+C to shut down.
+INFO  01:19:02 Hosting environment: Development
+INFO  01:19:02 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:19:22 Application started. Press Ctrl+C to shut down.
+INFO  01:19:22 Hosting environment: Development
+INFO  01:19:22 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:19:30 Application started. Press Ctrl+C to shut down.
+INFO  01:19:30 Hosting environment: Development
+INFO  01:19:30 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:19:49 Application started. Press Ctrl+C to shut down.
+INFO  01:19:49 Hosting environment: Development
+INFO  01:19:49 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:20:03 Application started. Press Ctrl+C to shut down.
+INFO  01:20:03 Hosting environment: Development
+INFO  01:20:03 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:20:35 Application started. Press Ctrl+C to shut down.
+INFO  01:20:35 Hosting environment: Development
+INFO  01:20:35 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:20:44 Application started. Press Ctrl+C to shut down.
+INFO  01:20:44 Hosting environment: Development
+INFO  01:20:44 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:21:38 Application started. Press Ctrl+C to shut down.
+INFO  01:21:38 Hosting environment: Development
+INFO  01:21:38 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:22:56 Application started. Press Ctrl+C to shut down.
+INFO  01:22:56 Hosting environment: Development
+INFO  01:22:56 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:22:56 Demo Controller - Index method called(Home Page)
+INFO  01:23:17 Home Controller - Admin method called
+INFO  01:23:29 Newspaper Controller - View method called
+INFO  01:23:34 Newspaper Controller - Update method called
+INFO  01:23:37 Newspaper Controller - View method called
+INFO  01:23:57 Newspaper Controller - View method called
+INFO  01:25:03 Application started. Press Ctrl+C to shut down.
+INFO  01:25:03 Hosting environment: Development
+INFO  01:25:03 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:25:03 Demo Controller - Index method called(Home Page)
+INFO  01:25:19 Home Controller - Admin method called
+INFO  01:25:22 Newspaper Controller - View method called
+INFO  01:27:33 Application started. Press Ctrl+C to shut down.
+INFO  01:27:33 Hosting environment: Development
+INFO  01:27:33 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:27:33 Newspaper Controller - View method called
+INFO  01:27:38 Newspaper Controller - View method called
+INFO  01:27:40 Newspaper Controller - View method called
+INFO  01:27:59 Application started. Press Ctrl+C to shut down.
+INFO  01:27:59 Hosting environment: Development
+INFO  01:27:59 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:27:59 Newspaper Controller - View method called
+INFO  01:28:29 Application started. Press Ctrl+C to shut down.
+INFO  01:28:29 Hosting environment: Development
+INFO  01:28:29 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:28:29 Newspaper Controller - View method called
+INFO  01:28:45 Application started. Press Ctrl+C to shut down.
+INFO  01:28:45 Hosting environment: Development
+INFO  01:28:45 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:28:45 Newspaper Controller - View method called
+INFO  01:32:43 Application started. Press Ctrl+C to shut down.
+INFO  01:32:43 Hosting environment: Development
+INFO  01:32:43 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:32:43 Newspaper Controller - View method called
+INFO  01:33:00 Application started. Press Ctrl+C to shut down.
+INFO  01:33:00 Hosting environment: Development
+INFO  01:33:00 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:33:00 Newspaper Controller - View method called
+INFO  01:34:17 Application started. Press Ctrl+C to shut down.
+INFO  01:34:17 Hosting environment: Development
+INFO  01:34:17 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:34:17 Newspaper Controller - View method called
+INFO  01:35:15 Application started. Press Ctrl+C to shut down.
+INFO  01:35:15 Hosting environment: Development
+INFO  01:35:15 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:35:15 Newspaper Controller - View method called
+INFO  01:35:30 Application started. Press Ctrl+C to shut down.
+INFO  01:35:30 Hosting environment: Development
+INFO  01:35:30 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:35:30 Newspaper Controller - View method called
+INFO  01:35:38 Application started. Press Ctrl+C to shut down.
+INFO  01:35:38 Hosting environment: Development
+INFO  01:35:38 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:35:38 Newspaper Controller - View method called
+INFO  01:36:49 Application started. Press Ctrl+C to shut down.
+INFO  01:36:49 Hosting environment: Development
+INFO  01:36:49 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:36:49 Newspaper Controller - View method called
+INFO  01:37:41 Application started. Press Ctrl+C to shut down.
+INFO  01:37:41 Hosting environment: Development
+INFO  01:37:41 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:37:41 Newspaper Controller - View method called
+INFO  01:37:41 Newspaper Controller - View method called
+INFO  01:38:22 Application started. Press Ctrl+C to shut down.
+INFO  01:38:22 Hosting environment: Development
+INFO  01:38:22 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:38:22 Newspaper Controller - View method called
+INFO  01:38:49 Application started. Press Ctrl+C to shut down.
+INFO  01:38:49 Hosting environment: Development
+INFO  01:38:49 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:38:49 Newspaper Controller - View method called
+INFO  01:38:52 Newspaper Controller - View method called
+INFO  01:39:38 Application started. Press Ctrl+C to shut down.
+INFO  01:39:38 Hosting environment: Development
+INFO  01:39:38 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:39:38 Newspaper Controller - View method called
+INFO  01:40:14 Application started. Press Ctrl+C to shut down.
+INFO  01:40:14 Hosting environment: Development
+INFO  01:40:14 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:40:14 Newspaper Controller - View method called
+INFO  01:40:54 Application started. Press Ctrl+C to shut down.
+INFO  01:40:54 Hosting environment: Development
+INFO  01:40:54 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:40:54 Demo Controller - Index method called(Home Page)
+INFO  01:41:01 Home Controller - Admin method called
+INFO  01:41:05 Newspaper Controller - View method called
+INFO  01:41:25 Application started. Press Ctrl+C to shut down.
+INFO  01:41:25 Hosting environment: Development
+INFO  01:41:25 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:41:25 Newspaper Controller - View method called
+INFO  01:41:42 Application started. Press Ctrl+C to shut down.
+INFO  01:41:42 Hosting environment: Development
+INFO  01:41:42 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:41:42 Newspaper Controller - View method called
+INFO  01:44:53 Application started. Press Ctrl+C to shut down.
+INFO  01:44:53 Hosting environment: Development
+INFO  01:44:53 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:44:53 Newspaper Controller - View method called
+INFO  01:45:01 Newspaper Controller - Update method called
+INFO  01:45:04 Newspaper Controller - Update method called
+INFO  01:45:11 Newspaper Controller - Update method called
+INFO  01:45:16 Newspaper Controller - Update method called
+INFO  01:45:19 Newspaper Controller - Update method called
+INFO  01:45:25 Newspaper Controller - Update method called
+INFO  01:45:29 Newspaper Controller - Update method called
+INFO  01:45:33 Newspaper Controller - Update method called
+INFO  01:45:37 Newspaper Controller - Update method called
+INFO  01:45:40 Newspaper Controller - Update method called
+INFO  01:45:55 Application started. Press Ctrl+C to shut down.
+INFO  01:45:55 Hosting environment: Development
+INFO  01:45:55 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:45:55 Newspaper Controller - View method called
+INFO  01:46:15 Application started. Press Ctrl+C to shut down.
+INFO  01:46:15 Hosting environment: Development
+INFO  01:46:15 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:46:15 Newspaper Controller - View method called
+INFO  01:46:46 Application started. Press Ctrl+C to shut down.
+INFO  01:46:46 Hosting environment: Development
+INFO  01:46:46 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:46:46 Newspaper Controller - View method called
+INFO  01:46:55 Application started. Press Ctrl+C to shut down.
+INFO  01:46:55 Hosting environment: Development
+INFO  01:46:55 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:46:55 Newspaper Controller - View method called
+INFO  01:47:10 Application started. Press Ctrl+C to shut down.
+INFO  01:47:10 Hosting environment: Development
+INFO  01:47:10 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:47:10 Newspaper Controller - View method called
+INFO  01:48:15 Application started. Press Ctrl+C to shut down.
+INFO  01:48:15 Hosting environment: Development
+INFO  01:48:15 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:48:15 Newspaper Controller - View method called
+INFO  01:49:42 Application started. Press Ctrl+C to shut down.
+INFO  01:49:42 Hosting environment: Development
+INFO  01:49:42 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:49:42 Newspaper Controller - View method called
+INFO  01:50:48 Application started. Press Ctrl+C to shut down.
+INFO  01:50:48 Hosting environment: Development
+INFO  01:50:48 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:50:48 Newspaper Controller - View method called
+INFO  01:51:47 Application started. Press Ctrl+C to shut down.
+INFO  01:51:47 Hosting environment: Development
+INFO  01:51:47 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:51:47 Demo Controller - Index method called(Home Page)
+INFO  01:52:07 Home Controller - Admin method called
+INFO  01:52:11 Newspaper Controller - View method called
+INFO  01:53:03 Application started. Press Ctrl+C to shut down.
+INFO  01:53:04 Hosting environment: Development
+INFO  01:53:04 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:53:04 Newspaper Controller - View method called
+INFO  01:53:30 Newspaper Controller - Delete method called
+INFO  01:53:30 User with id4 is deleted
+INFO  01:53:30 Newspaper Controller - View method called
+INFO  01:54:00 Application started. Press Ctrl+C to shut down.
+INFO  01:54:00 Hosting environment: Development
+INFO  01:54:00 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:54:00 Newspaper Controller - View method called
+INFO  01:54:21 Application started. Press Ctrl+C to shut down.
+INFO  01:54:21 Hosting environment: Development
+INFO  01:54:21 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:54:21 Newspaper Controller - View method called
+INFO  01:54:33 Application started. Press Ctrl+C to shut down.
+INFO  01:54:33 Hosting environment: Development
+INFO  01:54:33 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:54:33 Newspaper Controller - View method called
+INFO  01:54:41 Newspaper Controller - Update method called
+INFO  01:54:46 User with id2is updated
+INFO  01:54:46 Newspaper Controller - View method called
+INFO  01:54:51 Newspaper Controller - Update method called
+INFO  01:55:46 Application started. Press Ctrl+C to shut down.
+INFO  01:55:46 Hosting environment: Development
+INFO  01:55:46 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:55:46 Newspaper Controller - Update method called
+INFO  01:56:16 Application started. Press Ctrl+C to shut down.
+INFO  01:56:16 Hosting environment: Development
+INFO  01:56:16 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:56:16 Newspaper Controller - Update method called
+INFO  01:56:22 Application started. Press Ctrl+C to shut down.
+INFO  01:56:22 Hosting environment: Development
+INFO  01:56:22 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:56:22 Newspaper Controller - Update method called
+INFO  01:56:52 Application started. Press Ctrl+C to shut down.
+INFO  01:56:52 Hosting environment: Development
+INFO  01:56:52 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:56:52 Newspaper Controller - Update method called
+INFO  01:57:03 Application started. Press Ctrl+C to shut down.
+INFO  01:57:03 Hosting environment: Development
+INFO  01:57:03 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:57:03 Newspaper Controller - Update method called
+INFO  01:58:07 User with id2is updated
+INFO  01:58:07 Newspaper Controller - View method called
+INFO  01:58:09 Newspaper Controller - Update method called
+INFO  01:58:11 User with id2is updated
+INFO  01:58:11 Newspaper Controller - View method called
+INFO  01:58:47 Newspaper Controller - View method called
+INFO  01:59:45 Application started. Press Ctrl+C to shut down.
+INFO  01:59:45 Hosting environment: Development
+INFO  01:59:45 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  01:59:45 Newspaper Controller - View method called
+INFO  02:00:01 Application started. Press Ctrl+C to shut down.
+INFO  02:00:01 Hosting environment: Development
+INFO  02:00:01 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:00:01 Newspaper Controller - View method called
+INFO  02:00:18 Application started. Press Ctrl+C to shut down.
+INFO  02:00:18 Hosting environment: Development
+INFO  02:00:18 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:00:18 Newspaper Controller - View method called
+INFO  02:00:44 Application started. Press Ctrl+C to shut down.
+INFO  02:00:44 Hosting environment: Development
+INFO  02:00:44 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:00:44 Newspaper Controller - View method called
+INFO  02:01:05 Application started. Press Ctrl+C to shut down.
+INFO  02:01:05 Hosting environment: Development
+INFO  02:01:05 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:01:05 Newspaper Controller - View method called
+INFO  02:01:22 Application started. Press Ctrl+C to shut down.
+INFO  02:01:22 Hosting environment: Development
+INFO  02:01:22 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:01:22 Newspaper Controller - View method called
+INFO  02:01:42 Application started. Press Ctrl+C to shut down.
+INFO  02:01:42 Hosting environment: Development
+INFO  02:01:42 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:01:43 Newspaper Controller - View method called
+INFO  02:02:00 Application started. Press Ctrl+C to shut down.
+INFO  02:02:00 Hosting environment: Development
+INFO  02:02:00 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:02:00 Newspaper Controller - View method called
+INFO  02:02:21 Application started. Press Ctrl+C to shut down.
+INFO  02:02:21 Hosting environment: Development
+INFO  02:02:21 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:02:21 Newspaper Controller - View method called
+INFO  02:02:46 Demo Controller - Index method called(Home Page)
+INFO  02:02:55 Home Controller - Admin method called
+INFO  02:02:59 Newspaper Controller - View method called
+INFO  02:03:04 Newspaper Controller - View method called
+INFO  02:03:08 Newspaper Controller - Update method called
+INFO  02:03:10 User with id1is updated
+INFO  02:03:10 Newspaper Controller - View method called
+INFO  02:03:11 Newspaper Controller - Update method called
+INFO  02:03:12 User with id2is updated
+INFO  02:03:12 Newspaper Controller - View method called
+INFO  02:03:21 Newspaper Controller - Update method called
+INFO  02:03:23 Newspaper Controller - View method called
+INFO  02:03:24 Newspaper Controller - Update method called
+INFO  02:03:25 User with id2is updated
+INFO  02:03:25 Newspaper Controller - View method called
+INFO  02:03:28 Newspaper Controller - View method called
+INFO  02:03:33 Newspaper Controller - View method called
+INFO  02:03:36 Newspaper Controller - View method called
+INFO  02:03:38 Newspaper Controller - Update method called
+INFO  02:03:39 Newspaper Controller - View method called
+INFO  02:03:43 Newspaper Controller - Update method called
+INFO  02:03:44 Newspaper Controller - View method called
+INFO  02:03:56 Newspaper Controller - View method called
+INFO  02:04:15 Newspaper Controller - View method called
+INFO  02:04:30 Application started. Press Ctrl+C to shut down.
+INFO  02:04:30 Hosting environment: Development
+INFO  02:04:30 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:04:30 Newspaper Controller - View method called
+INFO  02:04:53 Application started. Press Ctrl+C to shut down.
+INFO  02:04:53 Hosting environment: Development
+INFO  02:04:53 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:04:53 Newspaper Controller - View method called
+INFO  02:05:04 Application started. Press Ctrl+C to shut down.
+INFO  02:05:04 Hosting environment: Development
+INFO  02:05:04 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:05:04 Newspaper Controller - View method called
+INFO  02:05:12 Application started. Press Ctrl+C to shut down.
+INFO  02:05:12 Hosting environment: Development
+INFO  02:05:12 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:05:12 Newspaper Controller - View method called
+INFO  02:05:35 Newspaper Controller - Update method called

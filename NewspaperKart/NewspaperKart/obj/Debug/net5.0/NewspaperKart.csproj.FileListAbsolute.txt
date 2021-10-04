@@ -548,10 +548,6 @@ C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\N
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\AddDeliveryPartner\Edit.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\AddDeliveryPartner\ViewDeliveryDetails.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Admin\AddAdmin.cshtml.g.cs
-C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Contact\Delete.cshtml.g.cs
-C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Contact\Edit.cshtml.g.cs
-C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Contact\Index.cshtml.g.cs
-C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Contact\ViewContact.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Customer\AddCustomer.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Delivery\AddDelivery.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Delivery\Delete.cshtml.g.cs
@@ -565,8 +561,6 @@ C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\N
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Home\Admin.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Home\Vendor.cshtml.g.cs
-C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Login\Login.cshtml.g.cs
-C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Login\Register.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\NewspaperDetails\BusinessStandard.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\NewspaperDetails\DeccanChronicle.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\NewspaperDetails\EconomicalTimes.cshtml.g.cs

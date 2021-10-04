@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7oZ/OFMQ02dzX2ko2hQVKIym4A+L2d0Ptm2qRAuuHZeENV6Gj+4JgO4elY1/VLFl6AA/ugVQny7oe2no+lnj7A==",
+  "dgSpecHash": "5baRpyTthjpOPneP2k3l9Acbke1lFPkHeeldl9mqSw0jVa1sKmSRJ9Ngu4C22rgSz7m4pf5NaH66h//rf+9FXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Documents\\Technical Training\\Projects\\Newspapercartsite\\NewspaperAPI\\NewspaperAPI\\NewspaperAPI.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\Technical_Training\\Projects\\Newspapercartsite\\NewspaperAPI\\NewspaperAPI\\NewspaperAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

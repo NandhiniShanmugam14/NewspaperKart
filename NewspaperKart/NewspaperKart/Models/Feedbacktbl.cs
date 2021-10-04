@@ -9,6 +9,8 @@ namespace NewspaperKart.Models
     public class Feedbacktbl
     {
         public int FeedId { get; set; }
+
+        [Required(ErrorMessage = "Please Enter Customer Id")]
         public int CustId { get; set; }
 
         [Required(ErrorMessage = "Please enter Name")]

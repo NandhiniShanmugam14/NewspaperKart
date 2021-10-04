@@ -17,13 +17,13 @@ namespace NewspaperKart.Models
 
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Please add a title")]
+        [Required(ErrorMessage = "Please add a Title")]
         public string Title { get; set; }
 
-        [Required(ErrorMessage = "Please add the language")]
+        [Required(ErrorMessage = "Please add the Language")]
         public string Language { get; set; }
 
-        [Required(ErrorMessage = "Please add the price")]
+        [Required(ErrorMessage = "Please add the Price")]
         public string Price { get; set; }
 
         //public virtual ICollection<AddDeliverytbl> AddDeliverytbls { get; set; }

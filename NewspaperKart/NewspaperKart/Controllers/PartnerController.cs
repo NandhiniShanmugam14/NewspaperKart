@@ -26,7 +26,7 @@ namespace NewspaperKart.Controllers
                 db.Partners.Add(e);
                 db.SaveChanges();
             }
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Subscription");
         }
 
         public IActionResult ViewPartner()
