@@ -1,148 +1,24 @@
 ﻿@model NewspaperKart.Models.Subscriptiontbl
 
+@using Microsoft.AspNetCore.Http
+@using System.Linq
+@inject IHttpContextAccessor HttpContextAccessor
 
 @{
     ViewData["Title"] = "AddSubscription";
+    //ViewBag.Name = @HttpContextAccessor.HttpContext.Request.Cookies["NewsList"];
+    //var news = ViewData["NewsList"] as NewspaperKart.Models.Newspapertbl;
+    ViewBag.CustId = HttpContextAccessor.HttpContext.Session.GetInt32("CustUserId");
+    ViewBag.CustName = HttpContextAccessor.HttpContext.Session.GetString("CustUsername");
 }
+
 
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <style>
-        @@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="~/css/style.css" />
 
-        .formclass {
-            max-width: 440px;
-            padding: 0 20px;
-            margin: 10px auto;
-        }
-
-        .wrapper {
-            width: 100%;
-            background: #fff;
-            border-radius: 5px;
-            box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
-        }
-
-        .wrapper .title {
-            height: 90px;
-            background: #04211b;
-            border-radius: 10px 10px 0 0;
-            color: #fff;
-            font-size: 30px;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .wrapper form {
-            padding: 30px 25px 25px 25px;
-        }
-
-        .wrapper form .row {
-            height: 45px;
-            margin-bottom: 15px;
-            position: relative;
-        }
-
-        .wrapper form .row input {
-            height: 100%;
-            width: 100%;
-            outline: none;
-            padding-left: 60px;
-            border-radius: 5px;
-            border: 2px solid #006953;
-            font-size: 16px;
-            transition: all 0.3s ease;
-        }
-
-        .wrapper form .row select {
-            height: 100%;
-            width: 100%;
-            outline: none;
-            padding-left: 60px;
-            border-radius: 5px;
-            border: 2px solid #006953;
-            font-size: 16px;
-            transition: all 0.3s ease;
-        }
-
-        form .row input:focus {
-            border-color: #16a085;
-            box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
-        }
-
-        form .row select:focus {
-            border-color: #16a085;
-            box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
-        }
-
-        form .row input::placeholder {
-            color: #999;
-        }
-
-        form .row select::placeholder {
-            color: #999;
-        }
-
-        .wrapper form .row i {
-            position: absolute;
-            width: 47px;
-            height: 100%;
-            color: #fff;
-            font-size: 18px;
-            background: #04211b;
-            border: 1px solid #006953;
-            border-radius: 5px 0 0 5px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .wrapper form .pass {
-            margin: -8px 0 20px 0;
-        }
-
-        .wrapper form .pass a {
-            color: #16a085;
-            font-size: 17px;
-            text-decoration: none;
-        }
-
-        .wrapper form .pass a:hover {
-            text-decoration: underline;
-        }
-
-        .wrapper form .button input {
-            color: #fff;
-            font-size: 20px;
-            font-weight: 500;
-            padding-left: 0px;
-            background: #04211b;
-            border: 1px solid #006953;
-            cursor: pointer;
-        }
-
-        form .button input:hover {
-            background: #12876f;
-        }
-
-
-        .wrapper form .signup-link {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 17px;
-        }
-
-        .wrapper form .signup-link a {
-            color: #16a085;
-            text-decoration: none;
-        }
-
-        form .signup-link a:hover {
-            text-decoration: underline;
-        }
-    </style>
+       
 </head>
 
 <body>
@@ -157,17 +33,23 @@
                 <form asp-action="AddSubscription" style="border: 2px solid #006953; border-radius: 0 0 10px 10px; " autocomplete="off">
                     <div class="row" style="margin-bottom: 0.7cm;">
                         <i class="fa fa-id-card" aria-hidden="true"></i>
-                        <input asp-for="CustId" type="number" placeholder="Customer Id" autocomplete="chrome-off" required>
+                        <input asp-for="CustId" type="number" placeholder="Customer Id" autocomplete="chrome-off" value="@ViewBag.CustId" required readonly>
                         <span asp-validation-for="CustId" class="text-danger"></span>
                     </div>
                     <div class="row" style="margin-bottom: 0.7cm;">
                         <i class="fa fa-user" aria-hidden="true"></i>
-                        <input asp-for="Name" type="text" placeholder="Name" required>
+                        <input asp-for="Name" type="text" placeholder="Name" value="@ViewBag.CustName" required readonly>
                         <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
                     <div class="row" style="margin-bottom: 0.7cm;">
                         <i class="fa fa-id-card" aria-hidden="true"></i>
                         <input asp-for="TitleId" type="number" placeholder="Title Id" required>
+                        @*<select>
+                                @foreach (Newspapertbl newslist in (List<Newspapertbl>)ViewBag.NewsList)
+                                {
+                                    <option>@newslist.Id</option>
+                                }
+                            </select>*@
                         <span asp-validation-for="TitleId" class="text-danger"></span>
                     </div>
                     <div class="row" style="margin-bottom: 0.7cm;">

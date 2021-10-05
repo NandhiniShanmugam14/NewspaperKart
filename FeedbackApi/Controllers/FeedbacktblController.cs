@@ -51,7 +51,7 @@ namespace FeedbackApi.Controllers
         }
 
         [HttpGet]
-        [Route("id")]
+        [Route("{id}")]
         public async Task<ActionResult<Feedbacktbl>> GetFeedbackById(int id)
         {
             Feedbacktbl a = await db.Feedbacktbls.FindAsync(id);

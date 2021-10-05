@@ -38,8 +38,10 @@ namespace NewspaperKart.Controllers
                     var SubsResponse = Res.Content.ReadAsStringAsync().Result;
 
                     NewsInfo = JsonConvert.DeserializeObject<List<Newspapertbl>>(SubsResponse);
+                    //HttpContext.Response.Cookies.Append("NewsList", SubsResponse);
 
                 }
+                ViewBag.NewsList = NewsInfo;
                 return View(NewsInfo);
             }
         }

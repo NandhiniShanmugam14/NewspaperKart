@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using JWT;
@@ -116,6 +117,69 @@ namespace NewspaperKart.Controllers
             }
             HttpContext.Session.Clear();
             return RedirectToAction("Index", "Demo");
+        }
+
+
+        string Baseurl = "https://localhost:44337/";
+
+        [HttpGet]
+        public async Task<ActionResult> ViewVendor()
+        {
+            _log4net.Info("Vendot Controller - View Vendor method called");
+            List<Vendortbl> SubsInfo = new List<Vendortbl>();
+
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(Baseurl);
+
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                HttpResponseMessage Res = await client.GetAsync("https://localhost:44325/api/Vendor/");
+
+                if (Res.IsSuccessStatusCode)
+                {
+                    var SubsResponse = Res.Content.ReadAsStringAsync().Result;
+
+                    SubsInfo = JsonConvert.DeserializeObject<List<Vendortbl>>(SubsResponse);
+
+                }
+                return View(SubsInfo);
+            }
+        }
+
+
+        [HttpGet]
+        public async Task<ActionResult> DeleteVendor(int id)
+        {
+            TempData["Venid"] = id;
+            Vendortbl s = new Vendortbl();
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync("https://localhost:44325/api/Vendor/" + id))
+                {
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                    s = JsonConvert.DeserializeObject<Vendortbl>(apiResponse);
+                }
+            }
+            return View(s);
+        }
+
+
+        [HttpPost]
+        public async Task<ActionResult> DeleteVendor(Vendortbl v)
+        {
+            _log4net.Info("Vendor Controller - Delete method called");
+            int Venid = Convert.ToInt32(TempData["Venid"]);
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.DeleteAsync("https://localhost:44325/api/Vendor?id=" + Venid))
+                {
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                }
+            }
+
+            return RedirectToAction("ViewVendor");
         }
     }
 }

@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NewspaperKart.Models;
 using Newtonsoft.Json;
@@ -64,6 +65,7 @@ namespace NewspaperKart.Controllers
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
                     Subsobj = JsonConvert.DeserializeObject<Subscriptiontbl>(apiResponse);
+                   
                 }
             }
             return RedirectToAction("Index", "Payment");
@@ -138,7 +140,34 @@ namespace NewspaperKart.Controllers
                 }
             }
 
-            return RedirectToAction("Index");
+            return RedirectToAction("AdminSubscription");
+        }
+
+
+        [HttpGet]
+        public async Task<ActionResult> AdminSubscription()
+        {
+            _log4net.Info("Subscription Controller - Admin Subscription method called");
+            List<Subscriptiontbl> SubsInfo = new List<Subscriptiontbl>();
+
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(Baseurl);
+
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                HttpResponseMessage Res = await client.GetAsync("api/Subscription");
+
+                if (Res.IsSuccessStatusCode)
+                {
+                    var SubsResponse = Res.Content.ReadAsStringAsync().Result;
+
+                    SubsInfo = JsonConvert.DeserializeObject<List<Subscriptiontbl>>(SubsResponse);
+
+                }
+                return View(SubsInfo);
+            }
         }
     }
 }

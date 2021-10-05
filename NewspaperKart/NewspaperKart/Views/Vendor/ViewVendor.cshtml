@@ -1,7 +1,11 @@
-﻿@model IEnumerable<NewspaperKart.Models.Feedbacktbl>
+﻿@model IEnumerable<NewspaperKart.Models.Vendortbl>
+
+@using Microsoft.AspNetCore.Http
+@using System.Linq
+@inject IHttpContextAccessor HttpContextAccessor
 
 @{
-    ViewData["Title"] = "ViewContact";
+    ViewData["Title"] = "VendorList";
 }
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -111,24 +115,18 @@
             }
     </style>
 </head>
-<div class="justify-content-xl-center" align="center">
 
-
-    <h1>View Contact</h1>
-
-    @*<p>
-            <a asp-action="Index" class="btn btn-outline-success">Create New</a>
-        </p>*@
+<body>
     <br />
     <h2 class="text-center" style="font-family: 'Comic Sans MS'">Subscriptions</h2><br />
     <table class="subscription">
         <thead>
             <tr>
                 <th>
-                    @Html.DisplayNameFor(model => model.CustId)
+                    @Html.DisplayNameFor(model => model.VendorId)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Name)
+                    @Html.DisplayNameFor(model => model.CompanyName)
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Email)
@@ -137,12 +135,12 @@
                     @Html.DisplayNameFor(model => model.Phoneno)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.TitleId)
+                    @Html.DisplayNameFor(model => model.UserName)
                 </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Issue)
-                </th>
-                <th></th>
+                @*<th>
+                    @Html.DisplayNameFor(model => model.Password)
+                </th>*@
+                <th>Delete Subscription</th>
             </tr>
         </thead>
         <tbody>
@@ -150,10 +148,10 @@
             {
                 <tr>
                     <td>
-                        @Html.DisplayFor(modelItem => item.CustId)
+                        @Html.DisplayFor(modelItem => item.VendorId)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Name)
+                        @Html.DisplayFor(modelItem => item.CompanyName)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Email)
@@ -162,29 +160,31 @@
                         @Html.DisplayFor(modelItem => item.Phoneno)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.TitleId)
+                        @Html.DisplayFor(modelItem => item.UserName)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Issue)
-                    </td>
-                    <td>
+                        @*<div class="wrapper">
+                                <div class="icon edit">
+                                    <div class="tooltip">Edit</div>
+                                    <a asp-action="UpdateSubscription" asp-route-id="@item.SubId"><span><i class="fa fa-edit" style="color: black;"></i></span></a>
+                                </div>
+                            </div>*@
                         <div class="wrapper">
                             <div class="icon delete">
                                 <div class="tooltip">Delete</div>
-                                <a asp-action="DeleteFeedback" asp-route-id="@item.FeedId"><span><i class="fa fa-trash" style="color: black;"></i></span></a>
+                                <a asp-action="DeleteVendor" asp-route-id="@item.VendorId"><span><i class="fa fa-trash" style="color: black;"></i></span></a>
                             </div>
                         </div>
-                        <!--<a asp-action="UpdateFeedback" asp-route-id="@item.FeedId" class="btn btn-outline-info">Edit</a> |-->
-                        @*<a asp-action="Details" asp-route-id="@item.Email">Details</a> |*@
-                        <!--<a asp-action="DeleteFeedback" asp-route-id="@item.FeedId" class="btn btn-outline-danger">Delete</a>-->
+
                     </td>
                 </tr>
             }
         </tbody>
     </table>
+</body>
 
-    @*<div>
-        <a asp-action="Vendor" asp-controller="Home" class="btn btn-outline-dark">Back</a>
+
+
+@*<div>
+        <a asp-action="AddCustomer"  class="btn btn-outline-dark">Back</a>
     </div>*@
-
-</div>

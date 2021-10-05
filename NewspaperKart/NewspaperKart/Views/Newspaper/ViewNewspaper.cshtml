@@ -35,9 +35,9 @@
             color: white;
         }
 
-    .wrapper {
-        display: inline-flex;
-    }
+        .wrapper {
+            display: inline-flex;
+        }
 
         .wrapper .icon {
             position: relative;
@@ -72,17 +72,17 @@
             transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         }
 
-            .wrapper .tooltip::before {
-                position: absolute;
-                content: "";
-                height: 8px;
-                width: 8px;
-                background-color: #ffffff;
-                bottom: -3px;
-                left: 50%;
-                transform: translate(-50%) rotate(45deg);
-                transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            }
+        .wrapper .tooltip::before {
+            position: absolute;
+            content: "";
+            height: 8px;
+            width: 8px;
+            background-color: #ffffff;
+            bottom: -3px;
+            left: 50%;
+            transform: translate(-50%) rotate(45deg);
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
 
         .wrapper .icon:hover .tooltip {
             top: -45px;
@@ -99,15 +99,16 @@
         .wrapper .edit:hover,
         .wrapper .edit:hover .tooltip,
         .wrapper .edit:hover .tooltip::before {
-            background-color: #6bdaff;
-            color: black;
+            background-color: #3b5999;
+            color: #ffffff;
         }
         .wrapper .delete:hover,
         .wrapper .delete:hover .tooltip,
         .wrapper .delete:hover .tooltip::before {
-            background-color: #ff5757;
-            color: black;
+            background-color: #de463b;
+            color: #ffffff;
         }
+
 </style>
 
 <body>

@@ -603,3 +603,6 @@ C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\N
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Customer\CustomerLogin.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Admin\AdminLogin.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Vendor\VendorLogin.cshtml.g.cs
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Subscription\AdminSubscription.cshtml.g.cs
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Vendor\DeleteVendor.cshtml.g.cs
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\Vendor\ViewVendor.cshtml.g.cs

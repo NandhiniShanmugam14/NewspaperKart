@@ -1,7 +1,13 @@
 ﻿@model IEnumerable<NewspaperKart.Models.Subscriptiontbl>
 
+@using Microsoft.AspNetCore.Http
+@using System.Linq
+@inject IHttpContextAccessor HttpContextAccessor
+
 @{
     ViewData["Title"] = "ViewSubscription";
+    ViewBag.CustId = HttpContextAccessor.HttpContext.Session.GetInt32("CustId");
+    ViewBag.CustomerId = HttpContextAccessor.HttpContext.Session.GetInt32("CustUserId");
 }
 
 <style>
@@ -60,28 +66,31 @@
         <tbody>
             @foreach (var item in Model)
             {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.CustId)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Name)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.TitleId)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Subscriptiontype)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Timeperiod)
-                    </td>
-                    <td>
-                        @*<a asp-action="UpdateSubscription" asp-route-id="@item.SubId">Edit</a> |*@
-                        @*<a asp-action="Details" asp-route-id="@item.Id">Details</a>*@ 
-                        <a asp-action="DeleteSubscription" asp-route-id="@item.SubId" class="btn btn-outline-danger">Unsubscribe</a>
-                    </td>
-                </tr>
+                @if (ViewBag.CustomerId == item.CustId)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CustId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.TitleId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Subscriptiontype)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Timeperiod)
+                        </td>
+                        <td>
+                            @*<a asp-action="UpdateSubscription" asp-route-id="@item.SubId">Edit</a> |*@
+                            @*<a asp-action="Details" asp-route-id="@item.Id">Details</a>*@
+                            <a asp-action="DeleteSubscription" asp-route-id="@item.SubId" class="btn btn-outline-danger">Unsubscribe</a>
+                        </td>
+                    </tr>
+                }
             }
         </tbody>
     </table>
