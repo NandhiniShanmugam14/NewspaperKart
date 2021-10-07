@@ -1,10 +1,16 @@
-﻿
+﻿@using Microsoft.AspNetCore.Http
+@using System.Linq
+@inject IHttpContextAccessor HttpContextAccessor
+
+
+@{
+    ViewBag.Cust = @HttpContextAccessor.HttpContext.Session.GetString("CustUsername");
+    ViewBag.Admin = @HttpContextAccessor.HttpContext.Session.GetString("AdminUsername");
+    ViewBag.Vendor = @HttpContextAccessor.HttpContext.Session.GetString("VendorUsername");
+}
 
 <head>
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
-    @*<title>@ViewData["Title"] - NewspaperkartMVCClient</title>*@
-    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="~/css/site.css" />*@
     <style>
         :root {
             --surface-color: #fff;
@@ -17,17 +23,27 @@
 
         body {
             font-family: 'Noto Sans JP', sans-serif;
-            background-color: white;
+            background-image: url("https://t3.ftcdn.net/jpg/02/25/93/64/400_F_225936432_Z3LJv0fJRvONuhyOzjsxHj0O7BoBq1zF.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 1px;
         }
+
+            body::-webkit-scrollbar {
+                width: 0 !important
+            }
 
         .cards {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
-            margin: 4rem 1vw;
+            margin: 2.5rem 1vw;
             margin-left: 10px;
             padding: 0;
             list-style-type: none;
+            margin-bottom: 1px;
+            border: 1px solid 1px;
         }
 
         .card {
@@ -83,7 +99,6 @@
 
             .card__arc path {
                 fill: var(--surface-color);
-                d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
             }
 
         .card:hover .card__header {
@@ -116,16 +131,6 @@
             color: #180454;
         }
 
-        /*.card__description {
-            padding: 0 2em 2em;
-            margin: 0;
-            color: #D7BDCA;
-            font-family: "MockFlowFont";
-            display: -webkit-box;
-            -webkit-box-orient: vertical;
-            -webkit-line-clamp: 3;
-            overflow: hidden;
-        }*/
         .neon {
             color: #423c3c;
             text-shadow: 0 0 5px #423c3c, 0 0 10px #423c3c, 0 0 20px #423c3c, 0 0 30px #423c3c, 0 0 40px #423c3c;
@@ -136,76 +141,105 @@
 <body>
     <div class="container">
         <br />
-        <p style="font-family: 'Comic Sans MS'; color: black; text-align: center; font-size: 45px;" class="neon">WELCOME TO NEWSPAPER KART</p>
+        <p style="font-family: 'Comic Sans MS'; color: black; text-align: center; font-size: 30px;" class="neon">WELCOME TO NEWSPAPER KART</p>
         <ul class="cards">
             <li>
-                <a asp-action="AddCustomer" asp-controller="Customer" class="card">
-                    <img src="https://img.freepik.com/free-vector/follow-me-social-business-theme-design_24877-50426.jpg?size=338&ext=jpg" class="card__image" alt="" />
-                    <div class="card__overlay">
-                        <div class="card__header">
-                            @*<svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>*@
-                            <img class="card__thumb" src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="" />
-                            <div class="card__header-text">
-                                <h3 class="card__title">User</h3>
-                                <span class="card__status">Login as a user</span>
+                @if (ViewBag.Cust == null)
+                {
+                    <a asp-action="AddCustomer" asp-controller="Customer" class="card">
+                        <img src="~/images/Custgif.gif" class="card__image" alt="" style="height: 350px;" />
+                        <div class="card__overlay">
+                            <div class="card__header">
+                                <img class="card__thumb" src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="" />
+                                <div class="card__header-text">
+                                    <h3 class="card__title">User</h3>
+                                    <span class="card__status">Login as a user</span>
+                                </div>
                             </div>
                         </div>
-                        @*<p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>*@
-                    </div>
-                </a>
+                    </a>
+                }
+                else
+                {
+                    <a asp-action="Index" asp-controller="Home" class="card">
+                        <img src="~/images/Custgif.gif" class="card__image" alt="" style="height: 350px;" />
+                        <div class="card__overlay">
+                            <div class="card__header">
+                                <img class="card__thumb" src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_1280.png" alt="" />
+                                <div class="card__header-text">
+                                    <h3 class="card__title">User</h3>
+                                    <span class="card__status">Login as a user</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                }
             </li>
             <li>
-                <a asp-controller="Admin" asp-action="AddAdmin" class="card">
-                    <img src="https://img.freepik.com/free-vector/follow-me-social-business-theme-design_24877-50426.jpg?size=338&ext=jpg" class="card__image" alt="" />
-                    <div class="card__overlay">
-                        <div class="card__header">
-                            @*<svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>*@
-                            <img class="card__thumb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLzi8P9Z8RNkDxO7TSfCTcMN3PkJKyG9rMJw&usqp=CAU" alt="" />
-                            <div class="card__header-text">
-                                <h3 class="card__title">Admin</h3>
-                                <span class="card__status">Login as an admin</span>
+                @if (ViewBag.Admin == null)
+                {
+                    <a asp-controller="Admin" asp-action="AddAdmin" class="card">
+                        <img src="~/images/admingif.gif" class="card__image" alt="" />
+                        <div class="card__overlay">
+                            <div class="card__header">
+                                <img class="card__thumb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLzi8P9Z8RNkDxO7TSfCTcMN3PkJKyG9rMJw&usqp=CAU" alt="" />
+                                <div class="card__header-text">
+                                    <h3 class="card__title">Admin</h3>
+                                    <span class="card__status">Login as an admin</span>
+                                </div>
                             </div>
                         </div>
-                        @*<p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>*@
-                    </div>
-                </a>
+                    </a>
+                }
+                else
+                {
+                    <a asp-controller="Admin" asp-action="Home" class="card">
+                        <img src="~/images/admingif.gif" class="card__image" alt="" />
+                        <div class="card__overlay">
+                            <div class="card__header">
+                                <img class="card__thumb" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLzi8P9Z8RNkDxO7TSfCTcMN3PkJKyG9rMJw&usqp=CAU" alt="" />
+                                <div class="card__header-text">
+                                    <h3 class="card__title">Admin</h3>
+                                    <span class="card__status">Login as an admin</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                }
             </li>
             <li>
-                <a asp-action="AddVendor" asp-controller="Vendor" class="card">
-                    <img src="https://img.freepik.com/free-vector/follow-me-social-business-theme-design_24877-50426.jpg?size=338&ext=jpg" class="card__image" alt="" />
-                    <div class="card__overlay">
-                        <div class="card__header">
-                            @*<svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>*@
-                            <img class="card__thumb" src="https://i.dlpng.com/static/png/6419297_preview.png" alt="" />
-                            <div class="card__header-text">
-                                <h3 class="card__title">Vendor</h3>
-                                <span class="card__status">Login as a vendor</span>
+                @if (ViewBag.Vendor == null)
+                {
+                    <a asp-action="AddVendor" asp-controller="Vendor" class="card">
+                        <img src="~/images/vendorgif.gif" style="height: 300px;" class="card__image" alt="" />
+                        <div class="card__overlay">
+                            <div class="card__header">
+                                <img class="card__thumb" src="https://i.dlpng.com/static/png/6419297_preview.png" alt="" />
+                                <div class="card__header-text">
+                                    <h3 class="card__title">Vendor</h3>
+                                    <span class="card__status">Login as a vendor</span>
+                                </div>
                             </div>
                         </div>
-                        @*<p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>*@
-                    </div>
-                </a>
+                    </a>
+                }
+                else
+                {
+                    <a asp-action="Vendor" asp-controller="Home" class="card">
+                        <img src="~/images/vendorgif.gif" style="height: 300px;" class="card__image" alt="" />
+                        <div class="card__overlay">
+                            <div class="card__header">
+                                <img class="card__thumb" src="https://i.dlpng.com/static/png/6419297_preview.png" alt="" />
+                                <div class="card__header-text">
+                                    <h3 class="card__title">Vendor</h3>
+                                    <span class="card__status">Login as a vendor</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                }
+                }
             </li>
         </ul>
     </div>
 </body>
-
-
-
-@*<img src="https://www.newspaperkart.com/template/img/logo1.png" />
-<h1 align="center">Welcome to NewspaperKart</h1>
-
-<br />
-<br />
-
-<div align="center">
-    <div>
-        <a asp-action="Login" asp-controller="Login" class="btn btn-outline-success">Sign in</a>
-    </div>
-
-    <br />
-
-    <div>
-        <a asp-action="Register" asp-controller="Login" class="btn btn-outline-success">Sign up</a>
-    </div>
-</div>*@
