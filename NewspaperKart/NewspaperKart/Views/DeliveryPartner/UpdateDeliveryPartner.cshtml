@@ -1,0 +1,44 @@
+﻿@model NewspaperKart.Models.DeliveryPartnertbl
+
+
+@{
+    ViewData["Title"] = "UpdateDeliveryPartner";
+}
+
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <br />
+        <div class="formclass">
+            <div class="wrapper">
+                <div class="title"><span>Update Delivert Partner</span></div>
+                <form asp-action="UpdateDeliveryPartner" style="border: 2px solid #006953; border-radius: 0 0 10px 10px; ">
+                    <input asp-for="DelPartId" type="text" hidden required>
+                    <div class="row">
+                        <i class="fas fa-user"></i>
+                        <input asp-for="Name" type="text" placeholder="Name" required>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="row">
+                        <i class="fa fa-language" aria-hidden="true"></i>
+                        <input asp-for="Phoneno" type="text" placeholder="Phoneno" required>
+                        <span asp-validation-for="Phoneno" class="text-danger"></span>
+                    </div>
+                    <div class="row">
+                        <i class="fa fa-credit-card" aria-hidden="true"></i>
+                        <input asp-for="Location" type="tel" placeholder="Location" required>
+                        <span asp-validation-for="Location" class="text-danger"></span>
+                    </div>
+                    <div class="row button">
+                        <input type="submit" value="Update" class="btn btn-info">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

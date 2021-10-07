@@ -47,22 +47,17 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="link-tiles" style="border-radius: 10px; padding-left: 1rem;">
-                            @Html.ActionLink("Delivery Partner", "ViewDelivery", "Delivery")
+                            @Html.ActionLink("Delivery Partner", "ViewDeliveryPartner", "DeliveryPartner")
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    @*<div class="col-md-3">
                         <div class="link-tiles" style="padding-left: 1rem; border-radius: 10px;">
                             @Html.ActionLink("Subscription List", "CustomerList", "Customer")
                         </div>
-                    </div>
+                    </div>*@
                     <div class="col-md-3">
                         <div class="link-tiles" style=" border-radius: 10px; padding-right: 2rem;">
-                            @Html.ActionLink("Add Delivery Partner", "AddDeliveryPartner", "AddDeliveryPartner")
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="link-tiles" style="border-radius: 10px;  padding-left: 3rem;">
-                            @Html.ActionLink("Contact", "ViewContact", "Contact")
+                            @Html.ActionLink("Add Delivery", "ViewDelivery", "AddDelivery")
                         </div>
                     </div>
                 </div>

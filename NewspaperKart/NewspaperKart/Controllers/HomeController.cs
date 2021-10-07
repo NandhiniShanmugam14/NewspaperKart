@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using NewspaperKart.CTSModel;
 using NewspaperKart.Models;
 using System;
 using System.Collections.Generic;
@@ -16,7 +15,6 @@ namespace NewspaperKart.Controllers
 
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(HomeController));
 
-        public static List<Newspaper> newspapers = new List<Newspaper>();
 
         public HomeController(ILogger<HomeController> logger)
         {

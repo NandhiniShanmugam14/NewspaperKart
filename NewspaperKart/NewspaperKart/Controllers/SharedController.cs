@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using NewspaperKart.CTSModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,19 +17,19 @@ namespace NewspaperKart.Controllers
         }
 
 
-        public IActionResult _layout(Logintbl l)
-        {
-            using (var db = new NewspaperkartContext())
-            {
-                Logintbl result = (from i in db.Logintbls
-                                   where i.Username == l.Username && i.Password == l.Password
-                                   select i).FirstOrDefault();
-                ViewBag.Username = HttpContext.Session.GetString("username");
+        //public IActionResult _layout(Logintbl l)
+        //{
+        //    using (var db = new NewspaperkartContext())
+        //    {
+        //        Logintbl result = (from i in db.Logintbls
+        //                           where i.Username == l.Username && i.Password == l.Password
+        //                           select i).FirstOrDefault();
+        //        ViewBag.Username = HttpContext.Session.GetString("username");
 
 
-                return View();
-            }
-        }
+        //        return View();
+        //    }
+        //}
 
         //[HttpPost]
         //public IActionResult _layout(Logintbl l)

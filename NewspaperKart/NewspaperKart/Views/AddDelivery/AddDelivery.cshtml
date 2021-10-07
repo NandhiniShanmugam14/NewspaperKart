@@ -1,0 +1,52 @@
+﻿@model NewspaperKart.Models.AddDeliverytbl
+
+
+@{
+    ViewData["Title"] = "AddDelivery";
+}
+
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <br />
+
+        <center>
+            <h2 class="text-center" style="display: inline-block; margin-left: auto; font-family: 'Comic Sans MS'">Add Delivery</h2>
+        </center>
+        <div class="formclass">
+            <div class="wrapper">
+                <div class="title"><span>Delivery form</span></div>
+                <form asp-action="AddDelivery" style="border: 2px solid #006953; border-radius: 0 0 10px 10px; ">
+                    <div class="row" style="margin-bottom: 0.7cm;">
+                        <i class="fas fa-user"></i>
+                        <input asp-for="Custid" type="text" placeholder="CustomerID" required>
+                        <span asp-validation-for="Custid" class="text-danger"></span>
+                    </div>
+                    <div class="row" style="margin-bottom: 0.7cm;">
+                        <i class="fa fa-language" aria-hidden="true"></i>
+                        <input asp-for="Titleid" type="text" placeholder="Title Id" required>
+                        <span asp-validation-for="Titleid" class="text-danger"></span>
+                    </div>
+                    <div class="row" style="margin-bottom: 0.7cm;">
+                        <i class="fa fa-credit-card" aria-hidden="true"></i>
+                        <input asp-for="Phoneno" type="tel" placeholder="Phone number" required>
+                        <span asp-validation-for="Phoneno" class="text-danger"></span>
+                    </div>
+                    <div class="row" style="margin-bottom: 0.7cm;">
+                        <i class="fa fa-credit-card" aria-hidden="true"></i>
+                        <input asp-for="DelpartId" type="tel" placeholder="Delivery Partner Id" required>
+                        <span asp-validation-for="DelpartId" class="text-danger"></span>
+                    </div>
+                    <div class="row button">
+                        <input type="submit" value="Submit" class="btn btn-info">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

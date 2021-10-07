@@ -8,11 +8,11 @@ namespace NewspaperKart.Controllers
 {
     public class PaymentController : Controller
     {
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
-
         
     }
 }
