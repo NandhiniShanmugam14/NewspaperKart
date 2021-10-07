@@ -4307,3 +4307,9 @@ INFO  01:14:07 Home Controller - Admin method called
 INFO  01:14:22 Feedback Controller - View method called
 INFO  01:14:39 Demo Controller - Index method called(Home Page)
 INFO  01:14:42 Feedback Controller - View method called
+INFO  02:50:07 Application started. Press Ctrl+C to shut down.
+INFO  02:50:07 Hosting environment: Development
+INFO  02:50:07 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  02:50:07 Demo Controller - Index method called(Home Page)
+INFO  02:50:16 Home Controller - Index method called
+INFO  02:50:21 Subscription Controller - Index method called
