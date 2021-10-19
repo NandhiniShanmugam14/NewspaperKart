@@ -25,12 +25,12 @@ namespace NewspaperKart.Models
         public string Phoneno { get; set; }
 
         [Required(ErrorMessage = "Please select newspaper title")]
-        public int TitleId { get; set; }
+        public string Title { get; set; }
 
         [Required(ErrorMessage = "Please enter your problem")]
         public string Issue { get; set; }
 
         public virtual Customertbl Cust { get; set; }
-        public virtual Newspapertbl Title { get; set; }
+        //public virtual Newspapertbl Title { get; set; }
     }
 }

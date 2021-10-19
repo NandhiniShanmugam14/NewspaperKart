@@ -38,8 +38,11 @@
                     <input type="text" placeholder="CVC/CVV" required>
                     <span class="text-danger"></span>
                 </div>
-                <div class="row button">
+                @*<div class="row button">
                     <input type="submit" value="Pay" class="btn btn-success" asp-action="Index" asp-controller="Subscription" />
+                </div>*@
+                <div class="row button">
+                    <a asp-action="Index" asp-controller="Subscription" class="btn btn-outline-dark" style="width: 450px; background-color: #04211b; color: white;">Pay</a>
                 </div>
             </form>
         </div>

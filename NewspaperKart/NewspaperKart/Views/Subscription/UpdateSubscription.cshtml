@@ -165,8 +165,14 @@
                     </div>
                     <div class="row">
                         <i class="fas fa-lock"></i>
-                        <input asp-for="TitleId" type="number" placeholder="Title Id" required>
-                        <span asp-validation-for="TitleId" class="text-danger"></span>
+                        @*<input asp-for="Title" type="text" placeholder="Title" required>*@
+                        <select asp-for="Title" asp-items="ViewBag.Title">
+                            <option value="">Select Title</option>
+                            <option value="The Hindu">The Hindu</option>
+                            <option value="Indian Express">Indian Express</option>
+                            <option value="Business Standard">Business Standard</option>
+                        </select>
+                        <span asp-validation-for="Title" class="text-danger"></span>
                     </div>
                     <div class="row">
                         <i class="fas fa-lock"></i>

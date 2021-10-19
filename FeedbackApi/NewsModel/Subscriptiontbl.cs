@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace SubscriptionAPI.CTSModel
+namespace FeedbackApi.NewsModel
 {
     public partial class Subscriptiontbl
     {

@@ -10,7 +10,6 @@ namespace FeedbackApi.NewsModel
         public Newspapertbl()
         {
             AddDeliverytbls = new HashSet<AddDeliverytbl>();
-            Feedbacktbls = new HashSet<Feedbacktbl>();
         }
 
         public int Id { get; set; }
@@ -19,6 +18,5 @@ namespace FeedbackApi.NewsModel
         public string Price { get; set; }
 
         public virtual ICollection<AddDeliverytbl> AddDeliverytbls { get; set; }
-        public virtual ICollection<Feedbacktbl> Feedbacktbls { get; set; }
     }
 }

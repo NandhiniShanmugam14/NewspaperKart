@@ -54,7 +54,7 @@ namespace NewspaperKart.Controllers
         public async Task<ActionResult> AddSubscription(Subscriptiontbl s)
         {
             _log4net.Info("Subscription Controller - Add method called");
-            _log4net.Info("User " + s.Name + " Subscribed newspaper with id " +s.TitleId);
+            //_log4net.Info("User " + s.Name + " Subscribed newspaper with id " +s.TitleId);
 
             Subscriptiontbl Subsobj = new Subscriptiontbl();
             using (var httpClient = new HttpClient())

@@ -13,8 +13,8 @@ namespace FeedbackApi.Controllers
     [ApiController]
     public class FeedbacktblController : ControllerBase
     {
-        private readonly NewsKartContext db;
-        public FeedbacktblController(NewsKartContext _db)
+        private readonly NewspaperContext db;
+        public FeedbacktblController(NewspaperContext _db)
         {
             db = _db;
         }

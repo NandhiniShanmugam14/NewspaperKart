@@ -11,6 +11,7 @@ namespace FeedbackApi.NewsModel
         {
             AddDeliverytbls = new HashSet<AddDeliverytbl>();
             Feedbacktbls = new HashSet<Feedbacktbl>();
+            Subscriptiontbls = new HashSet<Subscriptiontbl>();
         }
 
         public int CustomerId { get; set; }
@@ -22,5 +23,6 @@ namespace FeedbackApi.NewsModel
 
         public virtual ICollection<AddDeliverytbl> AddDeliverytbls { get; set; }
         public virtual ICollection<Feedbacktbl> Feedbacktbls { get; set; }
+        public virtual ICollection<Subscriptiontbl> Subscriptiontbls { get; set; }
     }
 }

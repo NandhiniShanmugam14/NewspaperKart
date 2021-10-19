@@ -15,7 +15,7 @@ namespace NewspaperKart.Models
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Please select newspaper title")]
-        public int TitleId { get; set; }
+        public string Title { get; set; }
 
         [Required(ErrorMessage = "Please select the subscription type")]
         public string Subscriptiontype { get; set; }
@@ -24,6 +24,6 @@ namespace NewspaperKart.Models
         public string Timeperiod { get; set; }
 
         public virtual Customertbl Cust { get; set; }
-        public virtual Newspapertbl Title { get; set; }
+        //public virtual Newspapertbl Title { get; set; }
     }
 }
