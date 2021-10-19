@@ -168,17 +168,15 @@
                                 <a asp-action="DeleteFeedback" asp-route-id="@item.FeedId"><span><i class="fa fa-trash" style="color: black;"></i></span></a>
                             </div>
                         </div>
-                        <!--<a asp-action="UpdateFeedback" asp-route-id="@item.FeedId" class="btn btn-outline-info">Edit</a> |-->
-                        @*<a asp-action="Details" asp-route-id="@item.Email">Details</a> |*@
-                        <!--<a asp-action="DeleteFeedback" asp-route-id="@item.FeedId" class="btn btn-outline-danger">Delete</a>-->
                     </td>
                 </tr>
             }
         </tbody>
-    </table>
-
-    @*<div>
-        <a asp-action="Vendor" asp-controller="Home" class="btn btn-outline-dark">Back</a>
-    </div>*@
+    </table><br /><br />
+    <center>
+        <div class="row button" style="margin-left: 500px;">
+            <a asp-action="Admin" asp-controller="Home" class="btn btn-outline-dark">Back</a>
+        </div>
+    </center>
 
 </div>

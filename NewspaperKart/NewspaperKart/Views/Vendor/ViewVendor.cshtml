@@ -138,8 +138,8 @@
                     @Html.DisplayNameFor(model => model.UserName)
                 </th>
                 @*<th>
-                    @Html.DisplayNameFor(model => model.Password)
-                </th>*@
+                        @Html.DisplayNameFor(model => model.Password)
+                    </th>*@
                 <th>Delete Subscription</th>
             </tr>
         </thead>
@@ -163,12 +163,6 @@
                         @Html.DisplayFor(modelItem => item.UserName)
                     </td>
                     <td>
-                        @*<div class="wrapper">
-                                <div class="icon edit">
-                                    <div class="tooltip">Edit</div>
-                                    <a asp-action="UpdateSubscription" asp-route-id="@item.SubId"><span><i class="fa fa-edit" style="color: black;"></i></span></a>
-                                </div>
-                            </div>*@
                         <div class="wrapper">
                             <div class="icon delete">
                                 <div class="tooltip">Delete</div>
@@ -180,7 +174,12 @@
                 </tr>
             }
         </tbody>
-    </table>
+    </table><br /><br />
+    <center>
+        <div class="row button" style="margin-left: 500px;">
+            <a asp-action="Admin" asp-controller="Home" class="btn btn-outline-dark">Back</a>
+        </div>
+    </center>
 </body>
 
 

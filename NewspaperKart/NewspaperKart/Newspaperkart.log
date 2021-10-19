@@ -5850,3 +5850,111 @@ INFO  02:52:49 Demo Controller - Index method called(Home Page)
 INFO  02:52:56 Home Controller - Index method called
 INFO  02:53:23 Demo Controller - Index method called(Home Page)
 INFO  02:53:47 Demo Controller - Index method called(Home Page)
+INFO  03:20:08 Application started. Press Ctrl+C to shut down.
+INFO  03:20:08 Hosting environment: Development
+INFO  03:20:08 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  03:20:08 Demo Controller - Index method called(Home Page)
+INFO  03:23:18 Application started. Press Ctrl+C to shut down.
+INFO  03:23:18 Hosting environment: Development
+INFO  03:23:18 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  03:23:18 Demo Controller - Index method called(Home Page)
+INFO  03:24:19 Application started. Press Ctrl+C to shut down.
+INFO  03:24:19 Hosting environment: Development
+INFO  03:24:19 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  03:24:20 Demo Controller - Index method called(Home Page)
+INFO  03:26:09 Home Controller - Index method called
+INFO  03:26:14 Demo Controller - Index method called(Home Page)
+INFO  03:26:20 Home Controller - Index method called
+INFO  03:26:34 Demo Controller - Index method called(Home Page)
+INFO  03:26:35 Home Controller - Index method called
+INFO  03:26:43 Demo Controller - Index method called(Home Page)
+INFO  03:26:51 Home Controller - Index method called
+INFO  03:27:19 Home Controller - Index method called
+INFO  03:27:26 NewspaperDetails Controller - Times of India
+INFO  03:27:35 Home Controller - Index method called
+INFO  03:27:35 NewspaperDetails Controller - Business Standard
+INFO  03:27:36 Home Controller - Index method called
+INFO  03:27:37 NewspaperDetails Controller - Deccan Chronicle
+INFO  03:27:38 Home Controller - Index method called
+INFO  03:28:07 Subscription Controller - Add method called
+INFO  03:28:23 Subscription Controller - Index method called
+INFO  03:28:39 Subscription Controller - Delete method called
+INFO  03:28:39 Subscription with id 5 is deleted
+INFO  03:28:39 Subscription Controller - Admin Subscription method called
+INFO  03:28:56 Subscription Controller - Index method called
+INFO  03:29:17 Subscription Controller - Index method called
+INFO  03:29:24 Demo Controller - Index method called(Home Page)
+INFO  03:29:25 Home Controller - Index method called
+INFO  03:29:32 Subscription Controller - Index method called
+INFO  03:31:27 Application started. Press Ctrl+C to shut down.
+INFO  03:31:27 Hosting environment: Development
+INFO  03:31:27 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  03:31:28 Demo Controller - Index method called(Home Page)
+INFO  03:31:36 Home Controller - Index method called
+INFO  03:31:41 Subscription Controller - Index method called
+INFO  03:31:49 Subscription Controller - Index method called
+INFO  03:32:13 Demo Controller - Index method called(Home Page)
+INFO  03:32:27 Home Controller - Index method called
+INFO  03:32:36 Subscription Controller - Index method called
+INFO  03:32:44 Demo Controller - Index method called(Home Page)
+INFO  03:33:10 Home Controller - Vendor method called
+INFO  03:33:44 Home Controller - Vendor method called
+INFO  03:33:52 Home Controller - Vendor method called
+INFO  03:34:05 Home Controller - Vendor method called
+INFO  03:34:07 Home Controller - Vendor method called
+INFO  03:35:30 Application started. Press Ctrl+C to shut down.
+INFO  03:35:30 Hosting environment: Development
+INFO  03:35:30 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  03:35:30 Demo Controller - Index method called(Home Page)
+INFO  03:35:38 Home Controller - Vendor method called
+INFO  03:37:40 Application started. Press Ctrl+C to shut down.
+INFO  03:37:40 Hosting environment: Development
+INFO  03:37:40 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  03:37:40 Demo Controller - Index method called(Home Page)
+INFO  03:37:51 Home Controller - Vendor method called
+INFO  03:39:51 Application started. Press Ctrl+C to shut down.
+INFO  03:39:51 Hosting environment: Development
+INFO  03:39:51 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  03:39:52 Demo Controller - Index method called(Home Page)
+INFO  03:40:00 Home Controller - Vendor method called
+INFO  03:40:40 Home Controller - Vendor method called
+INFO  03:41:15 Application started. Press Ctrl+C to shut down.
+INFO  03:41:15 Hosting environment: Development
+INFO  03:41:15 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  03:41:15 Demo Controller - Index method called(Home Page)
+INFO  03:41:30 Home Controller - Vendor method called
+INFO  03:41:43 Home Controller - Vendor method called
+INFO  03:41:53 Home Controller - Vendor method called
+INFO  03:42:17 Home Controller - Vendor method called
+INFO  03:42:24 Home Controller - Vendor method called
+INFO  03:42:28 Demo Controller - Index method called(Home Page)
+INFO  03:42:39 Home Controller - Admin method called
+INFO  03:42:44 Newspaper Controller - View method called
+INFO  03:43:01 Home Controller - Admin method called
+INFO  03:43:06 Newspaper Controller - View method called
+INFO  03:44:51 Application started. Press Ctrl+C to shut down.
+INFO  03:44:51 Hosting environment: Development
+INFO  03:44:51 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  03:44:51 Demo Controller - Index method called(Home Page)
+INFO  03:47:06 Application started. Press Ctrl+C to shut down.
+INFO  03:47:06 Hosting environment: Development
+INFO  03:47:06 Content root path: C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart
+INFO  03:47:06 Demo Controller - Index method called(Home Page)
+INFO  03:47:23 Home Controller - Admin method called
+INFO  03:47:33 Newspaper Controller - View method called
+INFO  03:47:46 Newspaper Controller - View method called
+INFO  03:47:49 Newspaper Controller - Update method called
+INFO  03:47:51 User with id1is updated
+INFO  03:47:51 Newspaper Controller - View method called
+INFO  03:47:58 Newspaper Controller - View method called
+INFO  03:47:59 Home Controller - Admin method called
+INFO  03:48:03 Subscription Controller - Admin Subscription method called
+INFO  03:48:29 Home Controller - Admin method called
+INFO  03:48:31 Vendot Controller - View Vendor method called
+INFO  03:48:33 Home Controller - Admin method called
+INFO  03:49:32 Subscription Controller - Admin Subscription method called
+INFO  03:49:34 Home Controller - Admin method called
+INFO  03:49:35 Vendot Controller - View Vendor method called
+INFO  03:49:41 Home Controller - Admin method called
+INFO  03:49:42 Feedback Controller - View method called
+INFO  03:49:47 Home Controller - Admin method called
