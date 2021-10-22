@@ -31,11 +31,7 @@
             <div class="wrapper">
                 <div class="title"><span>Subscription form</span></div>
                 <form asp-action="AddSubscription" style="border: 2px solid #006953; border-radius: 0 0 10px 10px; " autocomplete="off">
-                    <div class="row" style="margin-bottom: 0.7cm;">
-                        <i class="fa fa-id-card" aria-hidden="true"></i>
-                        <input asp-for="CustId" type="number" placeholder="Customer Id" autocomplete="chrome-off" value="@ViewBag.CustId" required readonly>
-                        <span asp-validation-for="CustId" class="text-danger"></span>
-                    </div>
+                    <input asp-for="CustId" type="number" placeholder="Customer Id" autocomplete="chrome-off" value="@ViewBag.CustId" hidden>
                     <div class="row" style="margin-bottom: 0.7cm;">
                         <i class="fa fa-user" aria-hidden="true"></i>
                         <input asp-for="Name" type="text" placeholder="Name" value="@ViewBag.CustName" required readonly>

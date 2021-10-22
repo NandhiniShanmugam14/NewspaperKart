@@ -14,7 +14,6 @@ namespace NewspaperKart.Models
         [Required(ErrorMessage = "Please add a Name")]
         public string Name { get; set; }
 
-        //[Remote(action: "IsUserNameAvailable", controller: "Admin")]
         [Required(ErrorMessage = "Please add a Username")]
         public string UserName { get; set; }
 

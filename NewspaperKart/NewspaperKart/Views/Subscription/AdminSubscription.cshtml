@@ -118,12 +118,13 @@
 
 <body>
     <br />
-    <h2 class="text-center" style="font-family: 'Comic Sans MS'">Subscriptions</h2><br />
+    <h2 class="text-center" style="font-family: 'Comic Sans MS'">Customer Subscriptions</h2><br />
     <table class="subscription">
         <thead>
             <tr>
                 <th>
-                    @Html.DisplayNameFor(model => model.CustId)
+                    @*@Html.DisplayNameFor(model => model.CustId)*@
+                    <label style="margin-top: 5px;">Customer Id</label>
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Name)
@@ -137,7 +138,7 @@
                 <th>
                     @Html.DisplayNameFor(model => model.Timeperiod)
                 </th>
-                <th>Delete Subscription</th>
+                @*<th>Delete Subscription</th>*@
             </tr>
         </thead>
         <tbody>
@@ -159,7 +160,7 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.Timeperiod)
                     </td>
-                    <td>
+                    @*<td>
                         <div class="wrapper">
                             <div class="icon delete">
                                 <div class="tooltip">Delete</div>
@@ -167,7 +168,7 @@
                             </div>
                         </div>
 
-                    </td>
+                    </td>*@
                 </tr>
             }
         </tbody>

@@ -113,13 +113,14 @@
 </head>
 <div class="justify-content-xl-center" align="center">
 
-    <h1>View Contact</h1>
+    <h1>Customer Feedbacks</h1>
     
     <table class="subscription">
         <thead>
             <tr>
                 <th>
-                    @Html.DisplayNameFor(model => model.CustId)
+                    @*@Html.DisplayNameFor(model => model.CustId)*@
+                    <label style="margin-top: 5px;">Customer Id</label>
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Name)
@@ -128,7 +129,8 @@
                     @Html.DisplayNameFor(model => model.Email)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Phoneno)
+                    <label style="margin-top: 5px;">Phone number</label>
+                    @*@Html.DisplayNameFor(model => model.Phoneno)*@
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Title)

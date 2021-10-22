@@ -149,16 +149,7 @@
             <div class="wrapper">
                 <div class="title"><span>Contact form</span></div>
                 <form asp-action="AddFeedback" style="border: 2px solid #006953; border-radius: 0 0 10px 10px; ">
-                    @*<div class="row" style="margin-bottom: 0.7cm;">
-                            <i class="fa fa-id-card" aria-hidden="true"></i>
-                            <input asp-for="CustId" type="text" placeholder="Customer Id" required>
-                            <span asp-validation-for="CustId" class="text-danger"></span>
-                        </div>*@
-                    <div class="row" style="margin-bottom: 0.7cm;">
-                        <i class="fas fa-user"></i>
-                        <input asp-for="CustId" value="@ViewBag.CustId" type="number" placeholder="Customerid" readonly required>
-                        <span asp-validation-for="CustId" class="text-danger"></span>
-                    </div>
+                    <input asp-for="CustId" value="@ViewBag.CustId" type="number" placeholder="Customerid" hidden>
                     <div class="row" style="margin-bottom: 0.7cm;">
                         <i class="fas fa-user"></i>
                         <input asp-for="Name" type="text" placeholder="Name" value="@ViewBag.CustName" readonly required>

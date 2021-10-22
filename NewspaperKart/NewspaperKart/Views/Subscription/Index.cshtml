@@ -45,9 +45,9 @@
     <table class="subscription">
         <thead>
             <tr>
-                <th>
+                @*<th>
                     @Html.DisplayNameFor(model => model.CustId)
-                </th>
+                </th>*@
                 <th>
                     @Html.DisplayNameFor(model => model.Name)
                 </th>
@@ -55,10 +55,12 @@
                     @Html.DisplayNameFor(model => model.Title)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Subscriptiontype)
+                    @*@Html.DisplayNameFor(model => model.Subscriptiontype)*@
+                    <label style="margin-top: 5px;">Subscription type</label>
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Timeperiod)
+                    @*@Html.DisplayNameFor(model => model.Timeperiod)*@
+                    <label style="margin-top: 5px;">Time Period</label>
                 </th>
                 <th>Unsubscribe</th>
             </tr>
@@ -69,9 +71,9 @@
                 @if (ViewBag.CustomerId == item.CustId)
                 {
                     <tr>
-                        <td>
+                        @*<td>
                             @Html.DisplayFor(modelItem => item.CustId)
-                        </td>
+                        </td>*@
                         <td>
                             @Html.DisplayFor(modelItem => item.Name)
                         </td>
@@ -85,8 +87,7 @@
                             @Html.DisplayFor(modelItem => item.Timeperiod)
                         </td>
                         <td>
-                            @*<a asp-action="UpdateSubscription" asp-route-id="@item.SubId">Edit</a> |*@
-                            @*<a asp-action="Details" asp-route-id="@item.Id">Details</a>*@
+                            <a asp-action="UpdateSubscription" asp-route-id="@item.SubId" class="btn btn-outline-primary">Upgrade</a> &nbsp;&nbsp;&nbsp;&nbsp;
                             <a asp-action="DeleteSubscription" asp-route-id="@item.SubId" class="btn btn-outline-danger">Unsubscribe</a>
                         </td>
                     </tr>
