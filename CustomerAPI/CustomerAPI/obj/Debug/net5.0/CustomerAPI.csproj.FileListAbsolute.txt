@@ -181,3 +181,10 @@ C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\C
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\CustomerAPI\CustomerAPI\obj\Debug\net5.0\ref\CustomerAPI.dll
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\CustomerAPI\CustomerAPI\obj\Debug\net5.0\CustomerAPI.pdb
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\CustomerAPI\CustomerAPI\obj\Debug\net5.0\CustomerAPI.genruntimeconfig.cache
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\CustomerAPI\CustomerAPI\bin\Debug\net5.0\System.Web.Mvc.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\CustomerAPI\CustomerAPI\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\CustomerAPI\CustomerAPI\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\CustomerAPI\CustomerAPI\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\CustomerAPI\CustomerAPI\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\CustomerAPI\CustomerAPI\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\CustomerAPI\CustomerAPI\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll

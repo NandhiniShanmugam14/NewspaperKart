@@ -153,29 +153,32 @@
             <div class="wrapper">
                 <div class="title"><span>Subscription form</span></div>
                 <form asp-action="UpdateSubscription" style="border: 2px solid #006953; border-radius: 0 0 10px 10px; ">
+                    <input asp-for="SubId" type="number" placeholder="Subscription Id" hidden>
                     <input asp-for="CustId" type="number" placeholder="Customer Id" hidden>
                     <div class="row">
                         <i class="fas fa-lock"></i>
-                        <input asp-for="Name" type="text" placeholder="Name" disabled required>
+                        <input asp-for="Name" type="text" placeholder="Name" readonly required>
                         <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
                     <div class="row">
                         <i class="fas fa-lock"></i>
-                        <select asp-for="Title" disabled>
+                        <input asp-for="Title" type="text" placeholder="Title" readonly required>
+                        @*<select asp-for="Title">
                             <option value="">Select Title</option>
                             <option value="The Hindu">The Hindu</option>
                             <option value="Indian Express">Indian Express</option>
                             <option value="Business Standard">Business Standard</option>
-                        </select>
+                        </select>*@
                         <span asp-validation-for="Title" class="text-danger"></span>
                     </div>
                     <div class="row">
                         <i class="fas fa-lock"></i>
-                        <select asp-for="Subscriptiontype" disabled>
+                        <input asp-for="Subscriptiontype" type="text" placeholder="Subscriptiontype" readonly required>
+                        @*<select asp-for="Subscriptiontype">
                             <option value="">Select subscription type</option>
                             <option value="Digital">Digital</option>
                             <option value="Print">Print</option>
-                        </select>
+                        </select>*@
                         <span asp-validation-for="Subscriptiontype" class="text-danger"></span>
                     </div>
                     <div class="row">

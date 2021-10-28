@@ -25,5 +25,6 @@ namespace NewspaperKart.Models
 
         public virtual Customertbl Cust { get; set; }
         //public virtual Newspapertbl Title { get; set; }
+       
     }
 }

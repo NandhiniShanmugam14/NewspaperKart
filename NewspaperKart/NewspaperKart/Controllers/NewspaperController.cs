@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.WebPages.Html;
 
 namespace NewspaperKart.Controllers
 {
@@ -23,7 +24,7 @@ namespace NewspaperKart.Controllers
         {
             _log4net.Info("Newspaper Controller - View method called");
             List<Newspapertbl> NewsInfo = new List<Newspapertbl>();
-
+            List<SelectListItem> DropDownList = new List<SelectListItem>();
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri(Baseurl);
@@ -41,9 +42,12 @@ namespace NewspaperKart.Controllers
                     //HttpContext.Response.Cookies.Append("NewsList", SubsResponse);
 
                 }
-                ViewBag.NewsList = NewsInfo;
+                
                 return View(NewsInfo);
             }
+            
+            
+            
         }
 
         [HttpGet]

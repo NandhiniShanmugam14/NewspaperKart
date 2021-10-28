@@ -9,8 +9,9 @@
     ViewBag.CustId = HttpContextAccessor.HttpContext.Session.GetInt32("CustId");
     ViewBag.CustomerId = HttpContextAccessor.HttpContext.Session.GetInt32("CustUserId");
 }
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+    @@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
     .subscription {
         font-family: Arial, Helvetica, sans-serif;
         border-collapse: collapse;
@@ -37,6 +38,80 @@
             background-color: #01054d;
             color: white;
         }
+        .wrapper {
+            display: inline-flex;
+        }
+
+        .wrapper .icon {
+            position: relative;
+            background-color: #ffffff;
+            border-radius: 50%;
+            border: 1px solid #adc4bf;
+            padding: 15px;
+            margin: 10px;
+            width: 50px;
+            height: 50px;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        .wrapper .tooltip {
+            position: absolute;
+            top: 0;
+            font-size: 14px;
+            background-color: #ffffff;
+            color: #ffffff;
+            padding: 5px 8px;
+            border-radius: 5px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        .wrapper .tooltip::before {
+            position: absolute;
+            content: "";
+            height: 8px;
+            width: 8px;
+            background-color: #ffffff;
+            bottom: -3px;
+            left: 50%;
+            transform: translate(-50%) rotate(45deg);
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        .wrapper .icon:hover .tooltip {
+            top: -45px;
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+
+        .wrapper .icon:hover span,
+        .wrapper .icon:hover .tooltip {
+            text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .wrapper .edit:hover,
+        .wrapper .edit:hover .tooltip,
+        .wrapper .edit:hover .tooltip::before {
+            background-color: #4ead42;
+            color: black;
+        }
+
+        .wrapper .delete:hover,
+        .wrapper .delete:hover .tooltip,
+        .wrapper .delete:hover .tooltip::before {
+            background-color: #e84d4d;
+            color: black;
+        }
 </style>
 
 <body>
@@ -46,8 +121,8 @@
         <thead>
             <tr>
                 @*<th>
-                    @Html.DisplayNameFor(model => model.CustId)
-                </th>*@
+            @Html.DisplayNameFor(model => model.CustId)
+        </th>*@
                 <th>
                     @Html.DisplayNameFor(model => model.Name)
                 </th>
@@ -62,7 +137,8 @@
                     @*@Html.DisplayNameFor(model => model.Timeperiod)*@
                     <label style="margin-top: 5px;">Time Period</label>
                 </th>
-                <th>Unsubscribe</th>
+                @*<th>Unsubscribe</th>*@
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -86,9 +162,23 @@
                         <td>
                             @Html.DisplayFor(modelItem => item.Timeperiod)
                         </td>
-                        <td>
+                        @*<td>
                             <a asp-action="UpdateSubscription" asp-route-id="@item.SubId" class="btn btn-outline-primary">Upgrade</a> &nbsp;&nbsp;&nbsp;&nbsp;
                             <a asp-action="DeleteSubscription" asp-route-id="@item.SubId" class="btn btn-outline-danger">Unsubscribe</a>
+                        </td>*@
+                        <td>
+                            <div class="wrapper">
+                                <div class="icon edit">
+                                    <div class="tooltip">Upgrade</div>
+                                    <a asp-action="UpdateSubscription" asp-route-id="@item.SubId"><span style="color: black;"><i class="fa fa-level-up"></i></span></a>
+                                </div>
+                            </div>
+                            <div class="wrapper">
+                                <div class="icon delete">
+                                    <div class="tooltip">Delete</div>
+                                    <a asp-action="DeleteSubscription" asp-route-id="@item.SubId"><span><i class="fa fa-trash" style="color: black;"></i></span></a>
+                                </div>
+                            </div>
                         </td>
                     </tr>
                 }

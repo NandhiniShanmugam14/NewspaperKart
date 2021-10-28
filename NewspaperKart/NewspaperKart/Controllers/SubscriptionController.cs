@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using NewspaperKart.Models;
 using Newtonsoft.Json;
 
@@ -23,7 +24,6 @@ namespace NewspaperKart.Controllers
         {
             _log4net.Info("Subscription Controller - Index method called");
             List<Subscriptiontbl> SubsInfo = new List<Subscriptiontbl>();
-
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri(Baseurl);
@@ -40,13 +40,29 @@ namespace NewspaperKart.Controllers
                     SubsInfo = JsonConvert.DeserializeObject<List<Subscriptiontbl>>(SubsResponse);
 
                 }
+
                 return View(SubsInfo);
             }
         }
 
         [HttpGet]
-        public ActionResult AddSubscription()
+        public async Task<ActionResult> AddSubscription()
         {
+            List<SelectListItem> DropDownList = new List<SelectListItem>();
+            List<Newspapertbl> SpecializationList = new List<Newspapertbl>();
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync("https://localhost:44387/api/Newspaper"))
+                {
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                    SpecializationList = JsonConvert.DeserializeObject<List<Newspapertbl>>(apiResponse);
+                }
+            }
+            foreach (var item in SpecializationList)
+            {
+                DropDownList.Add(new SelectListItem() { Text = item.Title, Value = item.Title });
+            }
+            ViewBag.specialization = DropDownList;
             return View();
         }
 
@@ -54,9 +70,9 @@ namespace NewspaperKart.Controllers
         public async Task<ActionResult> AddSubscription(Subscriptiontbl s)
         {
             _log4net.Info("Subscription Controller - Add method called");
-            //_log4net.Info("User " + s.Name + " Subscribed newspaper with id " +s.TitleId);
 
             Subscriptiontbl Subsobj = new Subscriptiontbl();
+
             using (var httpClient = new HttpClient())
             {
                 StringContent content = new StringContent(JsonConvert.SerializeObject(s), Encoding.UTF8, "application/json");
@@ -65,9 +81,9 @@ namespace NewspaperKart.Controllers
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
                     Subsobj = JsonConvert.DeserializeObject<Subscriptiontbl>(apiResponse);
-                   
                 }
             }
+
             return RedirectToAction("Index", "Payment");
         }
 
@@ -140,7 +156,7 @@ namespace NewspaperKart.Controllers
                 }
             }
 
-            return RedirectToAction("AdminSubscription");
+            return RedirectToAction("Index");
         }
 
 

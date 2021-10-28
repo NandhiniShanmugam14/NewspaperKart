@@ -596,3 +596,10 @@ C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\N
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\AddDelivery\DeleteDelivery.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\AddDelivery\UpdateDelivery.cshtml.g.cs
 C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\obj\Debug\net5.0\Razor\Views\AddDelivery\ViewDelivery.cshtml.g.cs
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\bin\Debug\net5.0\System.Web.Mvc.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Users\Administrator\Documents\Technical_Training\Projects\Newspapercartsite\NewspaperKart\NewspaperKart\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
