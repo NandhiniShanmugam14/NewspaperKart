@@ -5,7 +5,9 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using NewspaperKart.Models;
 using Newtonsoft.Json;
 
@@ -13,6 +15,7 @@ namespace NewspaperKart.Controllers
 {
     public class AddDeliveryController : Controller
     {
+
         string Baseurl = "https://localhost:44398/";
 
         [HttpGet]
@@ -41,8 +44,23 @@ namespace NewspaperKart.Controllers
         }
 
         [HttpGet]
-        public ActionResult AddDelivery()
+        public async Task<ActionResult> AddDelivery()
         {
+            List<SelectListItem> DropDownList = new List<SelectListItem>();
+            List<DeliveryPartnertbl> SpecializationList = new List<DeliveryPartnertbl>();
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync("https://localhost:44340/api/Deliveryp"))
+                {
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                    SpecializationList = JsonConvert.DeserializeObject<List<DeliveryPartnertbl>>(apiResponse);
+                }
+            }
+            foreach (var item in SpecializationList)
+            {
+                DropDownList.Add(new SelectListItem() { Text = item.Name, Value = item.Name });
+            }
+            ViewBag.specialization = DropDownList;
             return View();
         }
 

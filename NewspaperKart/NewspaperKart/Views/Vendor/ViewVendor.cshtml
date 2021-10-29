@@ -18,101 +18,101 @@
             width: 100%;
         }
 
-            .subscription td, .subscription th {
-                border: 1px solid #ddd;
-                padding: 8px;
-            }
+        .subscription td, .subscription th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
 
-            .subscription tr:nth-child(even) {
-                background-color: #f2f2f2;
-            }
+        .subscription tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
 
-            .subscription tr:hover {
-                background-color: #ddd;
-            }
+        .subscription tr:hover {
+            background-color: #ddd;
+        }
 
-            .subscription th {
-                padding-top: 12px;
-                padding-bottom: 12px;
-                text-align: left;
-                background-color: #01054d;
-                color: white;
-            }
+        .subscription th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #01054d;
+            color: white;
+        }
 
         .wrapper {
             display: inline-flex;
         }
 
-            .wrapper .icon {
-                position: relative;
-                background-color: #ffffff;
-                border-radius: 50%;
-                border: 1px solid #adc4bf;
-                padding: 15px;
-                margin: 10px;
-                width: 50px;
-                height: 50px;
-                font-size: 18px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-                cursor: pointer;
-                transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            }
+        .wrapper .icon {
+            position: relative;
+            background-color: #ffffff;
+            border-radius: 50%;
+            border: 1px solid #adc4bf;
+            padding: 15px;
+            margin: 10px;
+            width: 50px;
+            height: 50px;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
 
-            .wrapper .tooltip {
-                position: absolute;
-                top: 0;
-                font-size: 14px;
-                background-color: #ffffff;
-                color: #ffffff;
-                padding: 5px 8px;
-                border-radius: 5px;
-                box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-                opacity: 0;
-                pointer-events: none;
-                transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-            }
+        .wrapper .tooltip {
+            position: absolute;
+            top: 0;
+            font-size: 14px;
+            background-color: #ffffff;
+            color: #ffffff;
+            padding: 5px 8px;
+            border-radius: 5px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
 
-                .wrapper .tooltip::before {
-                    position: absolute;
-                    content: "";
-                    height: 8px;
-                    width: 8px;
-                    background-color: #ffffff;
-                    bottom: -3px;
-                    left: 50%;
-                    transform: translate(-50%) rotate(45deg);
-                    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-                }
+        .wrapper .tooltip::before {
+            position: absolute;
+            content: "";
+            height: 8px;
+            width: 8px;
+            background-color: #ffffff;
+            bottom: -3px;
+            left: 50%;
+            transform: translate(-50%) rotate(45deg);
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
 
-            .wrapper .icon:hover .tooltip {
-                top: -45px;
-                opacity: 1;
-                visibility: visible;
-                pointer-events: auto;
-            }
+        .wrapper .icon:hover .tooltip {
+            top: -45px;
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
 
-            .wrapper .icon:hover span,
-            .wrapper .icon:hover .tooltip {
-                text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-            }
+        .wrapper .icon:hover span,
+        .wrapper .icon:hover .tooltip {
+            text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+        }
 
-            .wrapper .edit:hover,
-            .wrapper .edit:hover .tooltip,
-            .wrapper .edit:hover .tooltip::before {
-                background-color: #3b5999;
-                color: #ffffff;
-            }
+        .wrapper .edit:hover,
+        .wrapper .edit:hover .tooltip,
+        .wrapper .edit:hover .tooltip::before {
+            background-color: #3b5999;
+            color: #ffffff;
+        }
 
-            .wrapper .delete:hover,
-            .wrapper .delete:hover .tooltip,
-            .wrapper .delete:hover .tooltip::before {
-                background-color: #de463b;
-                color: #ffffff;
-            }
+        .wrapper .delete:hover,
+        .wrapper .delete:hover .tooltip,
+        .wrapper .delete:hover .tooltip::before {
+            background-color: #de463b;
+            color: #ffffff;
+        }
     </style>
 </head>
 
@@ -122,9 +122,6 @@
     <table class="subscription">
         <thead>
             <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.VendorId)
-                </th>
                 <th>
                     @Html.DisplayNameFor(model => model.CompanyName)
                 </th>
@@ -137,16 +134,12 @@
                 <th>
                     @Html.DisplayNameFor(model => model.UserName)
                 </th>
-                @*<th>Delete Subscription</th>*@
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.VendorId)
-                    </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.CompanyName)
                     </td>
@@ -159,15 +152,6 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.UserName)
                     </td>
-                    @*<td>
-                        <div class="wrapper">
-                            <div class="icon delete">
-                                <div class="tooltip">Delete</div>
-                                <a asp-action="DeleteVendor" asp-route-id="@item.VendorId"><span><i class="fa fa-trash" style="color: black;"></i></span></a>
-                            </div>
-                        </div>
-
-                    </td>*@
                 </tr>
             }
         </tbody>
@@ -178,9 +162,3 @@
         </div>
     </center>
 </body>
-
-
-
-@*<div>
-        <a asp-action="AddCustomer"  class="btn btn-outline-dark">Back</a>
-    </div>*@

@@ -52,6 +52,10 @@
               "target": "Package",
               "version": "[5.2.7, )"
             },
+            "Microsoft.AspNet.WebPages.WebData": {
+              "target": "Package",
+              "version": "[3.2.7, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.10, )"

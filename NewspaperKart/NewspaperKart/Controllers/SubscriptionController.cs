@@ -76,7 +76,6 @@ namespace NewspaperKart.Controllers
             using (var httpClient = new HttpClient())
             {
                 StringContent content = new StringContent(JsonConvert.SerializeObject(s), Encoding.UTF8, "application/json");
-
                 using (var response = await httpClient.PostAsync("https://localhost:44337/api/Subscription", content))
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
@@ -164,6 +163,32 @@ namespace NewspaperKart.Controllers
         public async Task<ActionResult> AdminSubscription()
         {
             _log4net.Info("Subscription Controller - Admin Subscription method called");
+            List<Subscriptiontbl> SubsInfo = new List<Subscriptiontbl>();
+
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri(Baseurl);
+
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+                HttpResponseMessage Res = await client.GetAsync("api/Subscription");
+
+                if (Res.IsSuccessStatusCode)
+                {
+                    var SubsResponse = Res.Content.ReadAsStringAsync().Result;
+
+                    SubsInfo = JsonConvert.DeserializeObject<List<Subscriptiontbl>>(SubsResponse);
+
+                }
+                return View(SubsInfo);
+            }
+        }
+
+        [HttpGet]
+        public async Task<ActionResult> VendorSubscription()
+        {
+            _log4net.Info("Subscription Controller - Vendor Subscription method called");
             List<Subscriptiontbl> SubsInfo = new List<Subscriptiontbl>();
 
             using (var client = new HttpClient())

@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-//using NewspaperKart.CTSModel;
 using NewspaperKart.Models;
 using Newtonsoft.Json;
 using System;
@@ -66,7 +65,8 @@ namespace NewspaperKart.Controllers
 
                         HttpContext.Session.SetString("CustUsername", CustomerDetails.UserName);
                         HttpContext.Session.SetInt32("CustUserId", CustomerDetails.CustomerId);
-
+                        HttpContext.Session.SetString("CustAddress", CustomerDetails.Address);
+                        HttpContext.Session.SetString("CustPhone", CustomerDetails.Phoneno);
                         IJwtValidator _validator = new JwtValidator(_serializer, _provider);
                         IJwtDecoder decoder = new JwtDecoder(_serializer, _validator, _urlEncoder, _algorithm);
                         var tokenExp = decoder.DecodeToObject<JwtTokenExp>(Token);
@@ -87,7 +87,7 @@ namespace NewspaperKart.Controllers
 
 
         //[HttpGet]
-        //public async Task<ActionResult> Index()
+        //public async Task<ActionResult> ViewProfile()
         //{
         //    _log4net.Info("Customer Controller - View method called");
         //    List<Customertbl> CustInfo = new List<Customertbl>();
@@ -99,7 +99,7 @@ namespace NewspaperKart.Controllers
         //        client.DefaultRequestHeaders.Clear();
         //        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-        //        HttpResponseMessage Res = await client.GetAsync("api/Customer");
+        //        HttpResponseMessage Res = await client.GetAsync("https://localhost:44322/api/Customer");
 
         //        if (Res.IsSuccessStatusCode)
         //        {
@@ -111,6 +111,22 @@ namespace NewspaperKart.Controllers
         //        return View(CustInfo);
         //    }
         //}
+
+        [HttpGet]
+
+        public async Task<ActionResult> ViewProfile(int id)
+        {
+            Customertbl cust = new Customertbl();
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync("https://localhost:44322/api/Customer/" + id))
+                {
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                    cust = JsonConvert.DeserializeObject<Customertbl>(apiResponse);
+                }
+            }
+            return View(cust);
+        }
 
         [HttpGet]
         public ActionResult AddCustomer()
@@ -140,8 +156,6 @@ namespace NewspaperKart.Controllers
         [HttpGet]
         public async Task<ActionResult> UpdateCustomer(int id)
         {
-            //_log4net.Info("Customer Controller - Update method called");
-
             Customertbl cust = new Customertbl();
             using (var httpClient = new HttpClient())
             {
@@ -172,7 +186,7 @@ namespace NewspaperKart.Controllers
                     receivedemp = JsonConvert.DeserializeObject<Customertbl>(apiResponse);
                 }
             }
-            return RedirectToAction("Index");
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpGet]
@@ -217,5 +231,6 @@ namespace NewspaperKart.Controllers
             HttpContext.Session.Clear();
             return RedirectToAction("Index", "Demo");
         }
+
     }
 }

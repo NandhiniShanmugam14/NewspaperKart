@@ -123,10 +123,6 @@
         <thead>
             <tr>
                 <th>
-                    @*@Html.DisplayNameFor(model => model.CustId)*@
-                    <label style="margin-top: 5px;">Customer Id</label>
-                </th>
-                <th>
                     @Html.DisplayNameFor(model => model.Name)
                 </th>
                 <th>
@@ -138,16 +134,12 @@
                 <th>
                     @Html.DisplayNameFor(model => model.Timeperiod)
                 </th>
-                @*<th>Delete Subscription</th>*@
             </tr>
         </thead>
         <tbody>
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.CustId)
-                    </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Name)
                     </td>
@@ -160,15 +152,6 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.Timeperiod)
                     </td>
-                    @*<td>
-                        <div class="wrapper">
-                            <div class="icon delete">
-                                <div class="tooltip">Delete</div>
-                                <a asp-action="DeleteSubscription" asp-route-id="@item.SubId"><span><i class="fa fa-trash" style="color: black;"></i></span></a>
-                            </div>
-                        </div>
-
-                    </td>*@
                 </tr>
             }
         </tbody>

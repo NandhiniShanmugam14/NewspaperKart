@@ -1,8 +1,9 @@
 ﻿@model NewspaperKart.Models.AddDeliverytbl
 
 @{
-    ViewData["Title"] = "DeleteDelivery";
+    ViewData["Title"] = "Delete Delivery";
 }
+
 
 <head>
     <style>
@@ -99,7 +100,7 @@
             <div class="col-md-6 text-center" style="opacity: 1;">
                 <div class="content-box">
                     <center>
-                        <h5 class="text-center" style="text-decoration: underline; display: inline-block; margin-left: auto; font-family: 'Comic Sans MS'">Delivery</h5>
+                        <h5 class="text-center" style="text-decoration: underline; display: inline-block; margin-left: auto; font-family: 'Comic Sans MS'">Newspaper</h5>
                         <br />
                         <br />
                         <table>
@@ -119,52 +120,52 @@
                             <tr>
                                 <th>
                                     <h5>
-                                        @Html.DisplayNameFor(model => model.Custid)
+                                        @Html.DisplayNameFor(model => model.CustName)
                                     </h5>
                                 </th>
                                 <td>&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                 <td>
                                     <h5>
-                                        @Html.DisplayFor(model => model.Custid)
+                                        @Html.DisplayFor(model => model.CustName)
                                     </h5>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
                                     <h5>
-                                        @Html.DisplayNameFor(model => model.Titleid)
+                                        @Html.DisplayNameFor(model => model.Title)
                                     </h5>
                                 </th>
                                 <td>&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                 <td>
                                     <h5>
-                                        @Html.DisplayFor(model => model.Titleid)
+                                        @Html.DisplayFor(model => model.Title)
                                     </h5>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
                                     <h5>
-                                        @Html.DisplayNameFor(model => model.Phoneno)
+                                        @Html.DisplayNameFor(model => model.Timeperiod)
                                     </h5>
                                 </th>
                                 <td>&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                 <td>
                                     <h5>
-                                        @Html.DisplayFor(model => model.Phoneno)
+                                        @Html.DisplayFor(model => model.Timeperiod)
                                     </h5>
                                 </td>
                             </tr>
                             <tr>
                                 <th>
                                     <h5>
-                                        @Html.DisplayNameFor(model => model.DelpartId)
+                                        @Html.DisplayNameFor(model => model.DelPartner)
                                     </h5>
                                 </th>
                                 <td>&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;</td>
                                 <td>
                                     <h5>
-                                        @Html.DisplayFor(model => model.DelpartId)
+                                        @Html.DisplayFor(model => model.DelPartner)
                                     </h5>
                                 </td>
                             </tr>

@@ -2,7 +2,7 @@
 
 
 @{
-    ViewData["Title"] = "UpdateDelivery";
+    ViewData["Title"] = "Update Delivery";
 }
 
 
@@ -16,28 +16,28 @@
         <br />
         <div class="formclass">
             <div class="wrapper">
-                <div class="title"><span>Update Delivery Partner</span></div>
+                <div class="title"><span>Update Delivery</span></div>
                 <form asp-action="UpdateDelivery" style="border: 2px solid #006953; border-radius: 0 0 10px 10px; ">
-                    <input asp-for="DelId" type="text" hidden required>
+                    <input asp-for="DelId" hidden>
                     <div class="row">
                         <i class="fas fa-user"></i>
-                        <input asp-for="Custid" type="text" placeholder="Customer Id" required>
-                        <span asp-validation-for="Custid" class="text-danger"></span>
+                        <input asp-for="CustName" type="text" placeholder="Customer name" required>
+                        <span asp-validation-for="CustName" class="text-danger"></span>
                     </div>
                     <div class="row">
                         <i class="fa fa-language" aria-hidden="true"></i>
-                        <input asp-for="Titleid" type="text" placeholder="Title Id" required>
-                        <span asp-validation-for="Titleid" class="text-danger"></span>
+                        <input asp-for="Title" type="text" placeholder="Title" required>
+                        <span asp-validation-for="Title" class="text-danger"></span>
                     </div>
                     <div class="row">
                         <i class="fa fa-credit-card" aria-hidden="true"></i>
-                        <input asp-for="Phoneno" type="tel" placeholder="Phone Number" required>
-                        <span asp-validation-for="Phoneno" class="text-danger"></span>
+                        <input asp-for="Timeperiod" type="tel" placeholder="Time Period" required>
+                        <span asp-validation-for="Timeperiod" class="text-danger"></span>
                     </div>
                     <div class="row">
                         <i class="fa fa-credit-card" aria-hidden="true"></i>
-                        <input asp-for="DelpartId" type="tel" placeholder="Delivery Partner Id" required>
-                        <span asp-validation-for="DelpartId" class="text-danger"></span>
+                        @Html.DropDownListFor(model => model.DelPartner, new SelectList(ViewBag.specialization, "Value", "Text"), "--- Select ---")
+                        <span asp-validation-for="DelPartner" class="text-danger"></span>
                     </div>
                     <div class="row button">
                         <input type="submit" value="Update" class="btn btn-info">

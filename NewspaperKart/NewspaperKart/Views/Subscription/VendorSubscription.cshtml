@@ -1,0 +1,168 @@
+﻿@model IEnumerable<NewspaperKart.Models.Subscriptiontbl>
+@using Microsoft.AspNetCore.Http
+@using System.Linq
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    ViewData["Title"] = "VendorViewSubscription";
+    ViewBag.CustId = HttpContextAccessor.HttpContext.Session.GetInt32("CustId");
+}
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+        .subscription {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .subscription td, .subscription th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        .subscription tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .subscription tr:hover {
+            background-color: #ddd;
+        }
+
+        .subscription th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #01054d;
+            color: white;
+        }
+
+        .wrapper {
+            display: inline-flex;
+        }
+
+        .wrapper .icon {
+            position: relative;
+            background-color: #ffffff;
+            border-radius: 50%;
+            border: 1px solid #adc4bf;
+            padding: 15px;
+            margin: 10px;
+            width: 50px;
+            height: 50px;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        .wrapper .tooltip {
+            position: absolute;
+            top: 0;
+            font-size: 14px;
+            background-color: #ffffff;
+            color: #ffffff;
+            padding: 5px 8px;
+            border-radius: 5px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        .wrapper .tooltip::before {
+            position: absolute;
+            content: "";
+            height: 8px;
+            width: 8px;
+            background-color: #ffffff;
+            bottom: -3px;
+            left: 50%;
+            transform: translate(-50%) rotate(45deg);
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        .wrapper .icon:hover .tooltip {
+            top: -45px;
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+
+        .wrapper .icon:hover span,
+        .wrapper .icon:hover .tooltip {
+            text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .wrapper .edit:hover,
+        .wrapper .edit:hover .tooltip,
+        .wrapper .edit:hover .tooltip::before {
+            background-color: #3b5999;
+            color: #ffffff;
+        }
+
+        .wrapper .delete:hover,
+        .wrapper .delete:hover .tooltip,
+        .wrapper .delete:hover .tooltip::before {
+            background-color: #de463b;
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <br />
+    <h2 class="text-center" style="font-family: 'Comic Sans MS'">Customer print Subscriptions</h2><br />
+    <table class="subscription">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Subscriptiontype)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Timeperiod)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                @if (item.Subscriptiontype == "Print")
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Subscriptiontype)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Timeperiod)
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table><br />
+    <br />
+    <center>
+        <div class="row button" style="margin-left: 500px;">
+            <a asp-action="Vendor" asp-controller="Home" class="btn btn-outline-dark">Back</a>
+        </div>
+    </center>
+</body>

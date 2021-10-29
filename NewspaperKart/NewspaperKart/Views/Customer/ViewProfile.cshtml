@@ -1,0 +1,73 @@
+﻿@model NewspaperKart.Models.Customertbl
+
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    ViewData["Title"] = "Customer profile";
+    ViewBag.Id = @HttpContextAccessor.HttpContext.Session.GetInt32("CustUserId");
+}
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+    <style>
+        tr, td, th
+        {
+            border: 3px solid white;
+        }
+        .table-bordered td
+        {
+            border: 3px solid white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <br />
+        <div class="formclass">
+            <div class="wrapper" style="border: 2px solid black; border-radius: 12px;">
+                <div class="title">
+                    <span>View Profile</span>
+                </div>
+                <center>
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>Name</th>
+                            <td>:</td>
+                            <td>@Html.DisplayFor(model => model.Name)</td>
+                        </tr>
+                        <tr>
+                            <th>Address</th>
+                            <td>:</td>
+                            <td>@Html.DisplayFor(model => model.Address)</td>
+                        </tr>
+                        <tr>
+                            <th>Mobile Number</th>
+                            <td>:</td>
+                            <td>@Html.DisplayFor(model => model.Phoneno)</td>
+                        </tr>
+                        <tr>
+                            <th>Username &nbsp;&nbsp;</th>
+                            <td>:</td>
+                            <td>@Html.DisplayFor(model => model.UserName)</td>
+                        </tr>
+                        <tr>
+                            <th>Password &nbsp;&nbsp;</th>
+                            <td>:</td>
+                            <td>@Html.DisplayFor(model => model.Password)</td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        
+                    </table>
+                    <a asp-action="UpdateCustomer" asp-route-id="@ViewBag.Id"><button style="box-shadow: none; background-color: #04211b; color: white; padding: 10px; border-radius: 10px;">Edit Profile</button></a><br /><br />
+                </center>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,8 +1,12 @@
 ﻿@model NewspaperKart.Models.AddDeliverytbl
 
 
+@using Microsoft.AspNetCore.Http
+@using System.Linq
+@inject IHttpContextAccessor HttpContextAccessor
+
 @{
-    ViewData["Title"] = "AddDelivery";
+    ViewData["Title"] = "Add Delivery";
 }
 
 
@@ -16,37 +20,34 @@
         <br />
 
         <center>
-            <h2 class="text-center" style="display: inline-block; margin-left: auto; font-family: 'Comic Sans MS'">Add Delivery</h2>
+            <h2 class="text-center" style="display: inline-block; margin-left: auto; font-family: 'Comic Sans MS'">Add Newspaper</h2>
         </center>
         <div class="formclass">
             <div class="wrapper">
-                <div class="title"><span>Delivery form</span></div>
+                <div class="title"><span>Add Delivery form</span></div>
                 <form asp-action="AddDelivery" style="border: 2px solid #006953; border-radius: 0 0 10px 10px; ">
                     <div class="row" style="margin-bottom: 0.7cm;">
-                        <i class="fas fa-user"></i>
-                        <input asp-for="Custid" type="text" placeholder="CustomerID" required>
-                        <span asp-validation-for="Custid" class="text-danger"></span>
-                    </div>
-                    <div class="row" style="margin-bottom: 0.7cm;">
                         <i class="fa fa-language" aria-hidden="true"></i>
-                        <input asp-for="Titleid" type="text" placeholder="Title Id" required>
-                        <span asp-validation-for="Titleid" class="text-danger"></span>
+                        <input asp-for="CustName" type="text" placeholder="Customer Name" required>
+                        <span asp-validation-for="CustName" class="text-danger"></span>
                     </div>
                     <div class="row" style="margin-bottom: 0.7cm;">
                         <i class="fa fa-credit-card" aria-hidden="true"></i>
-                        <input asp-for="Phoneno" type="tel" placeholder="Phone number" required>
-                        <span asp-validation-for="Phoneno" class="text-danger"></span>
+                        <input asp-for="Title" type="text" placeholder="Title" required>
+                        <span asp-validation-for="Title" class="text-danger"></span>
                     </div>
                     <div class="row" style="margin-bottom: 0.7cm;">
                         <i class="fa fa-credit-card" aria-hidden="true"></i>
-                        <input asp-for="DelpartId" type="tel" placeholder="Delivery Partner Id" required>
-                        <span asp-validation-for="DelpartId" class="text-danger"></span>
+                        <input asp-for="Timeperiod" type="text" placeholder="Time Period" required>
+                        <span asp-validation-for="Timeperiod" class="text-danger"></span>
+                    </div>
+                    <div class="row" style="margin-bottom: 0.7cm;">
+                        <i class="fa fa-credit-card" aria-hidden="true"></i>
+                        @Html.DropDownListFor(model => model.DelPartner, new SelectList(ViewBag.specialization, "Value", "Text"), "--- Select ---")
+                        <span asp-validation-for="DelPartner" class="text-danger"></span>
                     </div>
                     <div class="row button">
                         <input type="submit" value="Submit" class="btn btn-info">
-                    </div>
-                    <div class="row button">
-                        <a asp-action="Vendor" asp-controller="Home" class="btn btn-outline-dark" style="width: 450px; background-color: #04211b; color: white;">Back</a>
                     </div>
                 </form>
             </div>

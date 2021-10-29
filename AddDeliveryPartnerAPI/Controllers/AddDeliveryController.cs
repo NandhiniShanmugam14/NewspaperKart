@@ -15,8 +15,8 @@ namespace AddDeliveryPartner.Controllers
     {
 
 
-        private readonly NewsKartContext db;
-        public AddDeliveryController(NewsKartContext _db)
+        private readonly NewspaperContext db;
+        public AddDeliveryController(NewspaperContext _db)
         {
             db = _db;
         }

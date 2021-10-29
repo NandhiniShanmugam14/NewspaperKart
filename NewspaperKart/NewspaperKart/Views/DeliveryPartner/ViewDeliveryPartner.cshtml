@@ -119,10 +119,6 @@
         <thead>
             <tr>
                 <th>
-                    @*@Html.DisplayNameFor(model => model.DelPartId)*@
-                    <label style="margin-top: 5px;">Delivery Partner Id</label>
-                </th>
-                <th>
                     @Html.DisplayNameFor(model => model.Name)
                 </th>
                 <th>
@@ -139,9 +135,6 @@
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.DelPartId)
-                    </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.Name)
                     </td>
